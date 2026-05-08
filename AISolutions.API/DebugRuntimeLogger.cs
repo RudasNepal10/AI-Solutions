@@ -6,7 +6,8 @@ namespace AISolutions.API
 {
     public static class DebugRuntimeLogger
     {
-        private const string LogPath = @"D:\Final year assignment 2\AISolutions Portal\debug-eab9c7.log";
+        private static readonly string LogPath = Path.Combine(
+            AppContext.BaseDirectory, "debug-runtime.log");
 
         public static void Log(string runId, string hypothesisId, string location, string message, object data)
         {

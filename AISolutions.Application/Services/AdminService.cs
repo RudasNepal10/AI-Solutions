@@ -1,6 +1,7 @@
 using AISolutions.Application.DTOs;
 using AISolutions.Application.Interfaces;
 using AISolutions.Domain.Entities;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -33,14 +34,14 @@ namespace AISolutions.Application.Services
         }
 
 
-        public Task<DashboardDto> GetDashboardStatsAsync()
+        public async Task<DashboardDto> GetDashboardStatsAsync()
         {
-            var customersCount = _customerRepository.Query().Count();
-            var inquiriesCount = _inquiryRepository.Query().Count();
-            var demoRequestsCount = _demoRequestRepository.Query().Count();
-            var eventRegistrationsCount = _eventRegistrationRepository.Query().Count();
+            var customers = await _customerRepository.GetAllAsync();
+            var inquiries = await _inquiryRepository.GetAllAsync();
+            var demoRequests = await _demoRequestRepository.GetAllAsync();
+            var eventRegistrations = await _eventRegistrationRepository.GetAllAsync();
 
-            var inquiryBreakdown = _inquiryRepository.Query()
+            var inquiryBreakdown = inquiries
                 .GroupBy(i => i.InterestType)
                 .Select(g => new InquiryBreakdownDto
                 {
@@ -49,14 +50,14 @@ namespace AISolutions.Application.Services
                 })
                 .ToList();
 
-            return Task.FromResult(new DashboardDto
+            return new DashboardDto
             {
-                TotalCustomers = customersCount,
-                TotalInquiries = inquiriesCount,
-                DemoRequestsCount = demoRequestsCount,
-                EventRegistrationsCount = eventRegistrationsCount,
+                TotalCustomers = customers.Count,
+                TotalInquiries = inquiries.Count,
+                DemoRequestsCount = demoRequests.Count,
+                EventRegistrationsCount = eventRegistrations.Count,
                 InquiryBreakdown = inquiryBreakdown
-            });
+            };
         }
         public async Task<bool> RegisterUserAsync(string username, string password, string role)
         {

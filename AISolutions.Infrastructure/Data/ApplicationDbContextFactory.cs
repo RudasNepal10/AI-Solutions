@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
+using System;
 using System.IO;
 
 namespace AISolutions.Infrastructure.Data
@@ -9,15 +10,32 @@ namespace AISolutions.Infrastructure.Data
     {
         public ApplicationDbContext CreateDbContext(string[] args)
         {
+            var basePath = Path.GetFullPath(
+                Path.Combine(Directory.GetCurrentDirectory(), "..", "AISolutions.API"));
+
+            if (!Directory.Exists(basePath))
+            {
+                basePath = Directory.GetCurrentDirectory();
+            }
+
             var config = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.json")
+                .SetBasePath(basePath)
+                .AddJsonFile("appsettings.json", optional: false)
                 .Build();
 
             var connectionString = config.GetConnectionString("DBConnection");
+            var dbProvider = config["DatabaseProvider"] ?? "Sqlite";
 
             var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
-            optionsBuilder.UseSqlServer(connectionString);
+
+            if (dbProvider.Equals("SqlServer", StringComparison.OrdinalIgnoreCase))
+            {
+                optionsBuilder.UseSqlServer(connectionString);
+            }
+            else
+            {
+                optionsBuilder.UseSqlite(connectionString);
+            }
 
             return new ApplicationDbContext(optionsBuilder.Options);
         }
