@@ -15,7 +15,7 @@ AISolutions.Tests           - xUnit tests with Moq
 ## Prerequisites
 
 - [.NET 9 SDK](https://dotnet.microsoft.com/download/dotnet/9.0)
-- (Optional) SQL Server — SQLite is used by default for development
+- **SQL Server** (LocalDB, Express, or full edition)
 
 ## Getting Started
 
@@ -23,7 +23,7 @@ AISolutions.Tests           - xUnit tests with Moq
 # Restore dependencies
 dotnet restore
 
-# Apply database migrations (auto-applied on startup in Development)
+# Apply database migrations
 dotnet ef database update --project AISolutions.Infrastructure --startup-project AISolutions.API
 
 # Run the API + frontend
@@ -36,18 +36,14 @@ The app starts at **http://localhost:5214**:
 
 ## Database
 
-- **Development** (default): SQLite (`AISolutions.db` in the API project folder)
-- **Production**: SQL Server — set `DatabaseProvider` to `SqlServer` and update the connection string
+Uses **Microsoft SQL Server** with Entity Framework Core.
 
-To switch providers, update `appsettings.json`:
-```json
-{
-  "DatabaseProvider": "SqlServer",
-  "ConnectionStrings": {
-    "DBConnection": "Server=...;Database=AISolution;..."
-  }
-}
+Default connection string in `appsettings.json`:
 ```
+Server=(localdb)\\mssqllocaldb;Database=AISolution;Trusted_Connection=True;Encrypt=True;TrustServerCertificate=True
+```
+
+Update this to point to your SQL Server instance as needed.
 
 ## Seed Admin User
 
@@ -56,6 +52,27 @@ Set environment variables before running to seed an admin user:
 export SEED_ADMIN_USERNAME=admin
 export SEED_ADMIN_PASSWORD=YourSecurePassword123
 ```
+
+## Functional Requirements
+
+| ID | Requirement | Implementation |
+|----|-------------|----------------|
+| FR1 | Display software solutions | Solutions page with 4 AI solution cards |
+| FR2 | Display past projects | Projects page with 6 project showcases |
+| FR3 | Provide contact form | Contact page with validated form |
+| FR4 | Collect user data | All forms collect and store user data |
+| FR5 | Validate form input | Client-side validation on all forms |
+| FR6 | Store inquiries | Contact/inquiry data stored in SQL Server |
+| FR7 | Admin login | JWT-based admin authentication |
+| FR8 | Admin dashboard | Dashboard with stats, customer/inquiry/user management |
+
+## Non-Functional Requirements
+
+| ID | Requirement | Implementation |
+|----|-------------|----------------|
+| NFR1 | Security | JWT auth, CORS, security headers, password hashing |
+| NFR2 | Usability | Responsive design, form validation, clear navigation |
+| NFR3 | Performance | Async operations, efficient queries, static file caching |
 
 ## API Endpoints
 

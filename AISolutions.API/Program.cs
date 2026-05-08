@@ -31,18 +31,8 @@ builder.Services.AddSession(options =>
 });
 
 // Database
-var dbProvider = builder.Configuration["DatabaseProvider"] ?? "Sqlite";
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-{
-    if (dbProvider.Equals("SqlServer", StringComparison.OrdinalIgnoreCase))
-    {
-        options.UseSqlServer(builder.Configuration.GetConnectionString("DBConnection"));
-    }
-    else
-    {
-        options.UseSqlite(builder.Configuration.GetConnectionString("DBConnection"));
-    }
-});
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DBConnection")));
 
 // Dependency Injection
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
@@ -175,8 +165,6 @@ if (app.Environment.IsDevelopment())
     });
 }
 
-app.UseDefaultFiles();
-app.UseStaticFiles();
 app.UseMiddleware<ExceptionMiddleware>();
 app.Use(async (context, next) =>
 {
@@ -194,6 +182,6 @@ app.UseSession();
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
-app.MapGet("/api", () => Results.Redirect("/swagger"));
+app.MapGet("/", () => Results.Redirect("/swagger"));
 
 app.Run();

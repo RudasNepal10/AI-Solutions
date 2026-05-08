@@ -1,7 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
-using System;
 using System.IO;
 
 namespace AISolutions.Infrastructure.Data
@@ -24,18 +23,9 @@ namespace AISolutions.Infrastructure.Data
                 .Build();
 
             var connectionString = config.GetConnectionString("DBConnection");
-            var dbProvider = config["DatabaseProvider"] ?? "Sqlite";
 
             var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
-
-            if (dbProvider.Equals("SqlServer", StringComparison.OrdinalIgnoreCase))
-            {
-                optionsBuilder.UseSqlServer(connectionString);
-            }
-            else
-            {
-                optionsBuilder.UseSqlite(connectionString);
-            }
+            optionsBuilder.UseSqlServer(connectionString);
 
             return new ApplicationDbContext(optionsBuilder.Options);
         }
