@@ -27,3 +27,6 @@ frontend/dev-server.out.log
 .env.test.local
 .env.production.local
 frontend/.env.local
+
+# Academic Documents / Reports (Personal local documentation only)
+portfolio_report.md
