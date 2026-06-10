@@ -2,8 +2,6 @@
 
 AI-Solutions is a modern web platform built using a **Next.js SPA** frontend and an **ASP.NET Core REST API** backend with **SQL Server**, structured using **Clean Architecture** patterns. **Entity Framework Core (EF Core)** is used as the Object-Relational Mapper (ORM) for database management and database queries. The platform showcase services, client reviews, contact inquiry routing, and an interactive AI virtual assistant widget, all managed through a secure, token-authenticated administration workspace.
 
-For the comprehensive distinction-level portfolio report detailing requirements specification, project scheduling, system design, testing cases, performance loads, evaluation audits, and critical reflection, open [portfolio_report.md](./portfolio_report.md).
-
 ---
 
 ## Repository Structure
@@ -31,8 +29,6 @@ AISolutions/
 │   │   └── providers/             # Global providers (theme and query clients)
 │   ├── next.config.ts             # Next.js configurations and API proxy settings
 │   └── package.json               # Node dependency versions
-│
-└── portfolio_report.md            # Comprehensive academic portfolio documentation
 ```
 
 ---
