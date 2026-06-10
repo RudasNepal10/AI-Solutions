@@ -1,0 +1,29 @@
+# IDE / OS
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+bin/
+obj/
+frontend/.next/
+frontend/tsconfig.tsbuildinfo
+
+# Dependency folders
+node_modules/
+frontend/node_modules/
+
+# Logs
+*.log
+frontend/dev-server.err.log
+frontend/dev-server.out.log
+
+# Secrets / Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+frontend/.env.local

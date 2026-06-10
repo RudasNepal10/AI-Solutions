@@ -1,0 +1,785 @@
+2026-06-02 07:00:09.375 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-02 07:00:12.140 +05:45 [INF] Database migrated and seeded successfully
+2026-06-02 07:00:12.146 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-06-02 07:00:12.370 +05:45 [INF] Now listening on: https://localhost:7178
+2026-06-02 07:00:12.371 +05:45 [INF] Now listening on: http://localhost:5214
+2026-06-02 07:00:12.413 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-02 07:00:12.414 +05:45 [INF] Hosting environment: Development
+2026-06-02 07:00:12.415 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-06-02 07:00:14.578 +05:45 [INF] HTTP GET /swagger responded 301 in 15.9448 ms
+2026-06-02 07:00:14.774 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 149.4739 ms
+2026-06-02 07:00:14.812 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 2.3323 ms
+2026-06-02 07:00:15.013 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 37.7136 ms
+2026-06-02 07:01:08.117 +05:45 [INF] HTTP GET /api/reviews/approved responded 200 in 5285.2772 ms
+2026-06-02 07:01:08.189 +05:45 [INF] HTTP GET /api/reviews/approved responded 200 in 206.7094 ms
+2026-06-02 07:01:08.464 +05:45 [INF] HTTP GET /api/reviews/approved responded 200 in 13.7428 ms
+2026-06-02 08:10:39.102 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-02 08:10:41.820 +05:45 [INF] Database migrated and seeded successfully
+2026-06-02 08:10:41.825 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-06-02 08:10:42.292 +05:45 [INF] Now listening on: https://localhost:7178
+2026-06-02 08:10:42.293 +05:45 [INF] Now listening on: http://localhost:5214
+2026-06-02 08:10:42.423 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-02 08:10:42.467 +05:45 [INF] Hosting environment: Development
+2026-06-02 08:10:42.471 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-06-02 08:10:44.563 +05:45 [INF] HTTP GET /swagger responded 301 in 16.6836 ms
+2026-06-02 08:10:44.772 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 160.6041 ms
+2026-06-02 08:10:44.806 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 1.9562 ms
+2026-06-02 08:10:45.020 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 38.7400 ms
+2026-06-02 08:12:44.582 +05:45 [INF] HTTP GET /api/blogs responded 200 in 5376.3319 ms
+2026-06-02 08:12:44.722 +05:45 [INF] HTTP GET /uploads/ad02e4e2-067b-4e3e-afce-96b4eaa8b4f8.webp responded 304 in 60.7484 ms
+2026-06-02 08:12:44.722 +05:45 [INF] HTTP GET /uploads/de8415a5-33e9-4f2a-b56b-1a08b0f79af3.jpg responded 304 in 62.4210 ms
+2026-06-02 08:12:44.722 +05:45 [INF] HTTP GET /uploads/1fc4a6be-6787-4a74-804b-18a52988d1af.png responded 304 in 60.6885 ms
+2026-06-02 08:14:00.110 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 4.6045 ms
+2026-06-02 08:14:01.687 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 1507.8030 ms
+2026-06-02 08:14:01.904 +05:45 [INF] HTTP OPTIONS /api/users responded 204 in 1.2501 ms
+2026-06-02 08:14:01.940 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 33.1606 ms
+2026-06-02 08:14:01.957 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.4609 ms
+2026-06-02 08:14:02.174 +05:45 [INF] HTTP GET /api/contact/messages responded 403 in 173.2612 ms
+2026-06-02 08:14:02.174 +05:45 [INF] HTTP GET /api/users responded 403 in 188.9568 ms
+2026-06-02 08:14:02.300 +05:45 [INF] HTTP GET /api/reviews responded 200 in 280.6209 ms
+2026-06-02 08:14:02.655 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.2446 ms
+2026-06-02 08:14:02.655 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.3575 ms
+2026-06-02 08:14:02.656 +05:45 [INF] HTTP OPTIONS /api/users responded 204 in 0.1914 ms
+2026-06-02 08:14:02.698 +05:45 [INF] HTTP GET /api/reviews responded 200 in 21.7665 ms
+2026-06-02 08:14:02.706 +05:45 [INF] HTTP GET /api/contact/messages responded 403 in 9.0683 ms
+2026-06-02 08:14:02.719 +05:45 [INF] HTTP GET /api/users responded 403 in 1.3218 ms
+2026-06-02 08:14:03.807 +05:45 [INF] HTTP GET /api/contact/messages responded 403 in 1.6025 ms
+2026-06-02 08:14:03.808 +05:45 [INF] HTTP GET /api/users responded 403 in 1.1935 ms
+2026-06-02 08:14:17.752 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 1.5114 ms
+2026-06-02 08:14:17.793 +05:45 [INF] HTTP GET /api/reviews responded 200 in 8.3958 ms
+2026-06-02 08:14:18.847 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 1.0523 ms
+2026-06-02 08:14:18.856 +05:45 [INF] HTTP OPTIONS /api/users responded 204 in 0.2948 ms
+2026-06-02 08:14:18.871 +05:45 [INF] HTTP GET /api/contact/messages responded 403 in 1.3923 ms
+2026-06-02 08:14:18.889 +05:45 [INF] HTTP GET /api/users responded 403 in 1.2275 ms
+2026-06-02 08:14:19.922 +05:45 [INF] HTTP GET /api/contact/messages responded 403 in 0.9360 ms
+2026-06-02 08:14:19.930 +05:45 [INF] HTTP GET /api/users responded 403 in 0.8651 ms
+2026-06-02 08:14:32.840 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.1641 ms
+2026-06-02 08:14:32.926 +05:45 [INF] HTTP GET /api/reviews responded 200 in 55.5946 ms
+2026-06-02 08:14:34.952 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 1.0725 ms
+2026-06-02 08:14:34.976 +05:45 [INF] HTTP OPTIONS /api/users responded 204 in 0.6573 ms
+2026-06-02 08:14:34.994 +05:45 [INF] HTTP GET /api/contact/messages responded 403 in 1.7413 ms
+2026-06-02 08:14:35.012 +05:45 [INF] HTTP GET /api/users responded 403 in 2.1534 ms
+2026-06-02 08:14:36.040 +05:45 [INF] HTTP GET /api/contact/messages responded 403 in 1.3462 ms
+2026-06-02 08:14:36.063 +05:45 [INF] HTTP GET /api/users responded 403 in 1.4351 ms
+2026-06-02 08:14:48.115 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.3637 ms
+2026-06-02 08:14:48.157 +05:45 [INF] HTTP GET /api/reviews responded 200 in 9.7819 ms
+2026-06-02 08:14:51.075 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.1219 ms
+2026-06-02 08:14:51.097 +05:45 [INF] HTTP OPTIONS /api/users responded 204 in 0.2460 ms
+2026-06-02 08:14:51.105 +05:45 [INF] HTTP GET /api/contact/messages responded 403 in 1.3978 ms
+2026-06-02 08:14:51.126 +05:45 [INF] HTTP GET /api/users responded 403 in 1.3427 ms
+2026-06-02 08:14:52.167 +05:45 [INF] HTTP GET /api/contact/messages responded 403 in 0.6713 ms
+2026-06-02 08:14:52.188 +05:45 [INF] HTTP GET /api/users responded 403 in 1.0580 ms
+2026-06-02 08:15:03.431 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.1696 ms
+2026-06-02 08:15:03.471 +05:45 [INF] HTTP GET /api/reviews responded 200 in 14.3182 ms
+2026-06-02 08:15:07.555 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.1552 ms
+2026-06-02 08:15:07.557 +05:45 [INF] HTTP OPTIONS /api/users responded 204 in 0.1085 ms
+2026-06-02 08:15:07.579 +05:45 [INF] HTTP GET /api/contact/messages responded 403 in 1.4361 ms
+2026-06-02 08:15:07.615 +05:45 [INF] HTTP GET /api/users responded 403 in 1.0881 ms
+2026-06-02 08:15:08.658 +05:45 [INF] HTTP GET /api/contact/messages responded 403 in 0.9684 ms
+2026-06-02 08:15:08.660 +05:45 [INF] HTTP GET /api/users responded 403 in 1.1269 ms
+2026-06-02 08:15:18.502 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.4210 ms
+2026-06-02 08:15:18.531 +05:45 [INF] HTTP GET /api/reviews responded 200 in 6.9010 ms
+2026-06-02 08:15:23.700 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.0940 ms
+2026-06-02 08:15:23.702 +05:45 [INF] HTTP OPTIONS /api/users responded 204 in 0.1625 ms
+2026-06-02 08:15:23.723 +05:45 [INF] HTTP GET /api/contact/messages responded 403 in 1.4377 ms
+2026-06-02 08:15:23.729 +05:45 [INF] HTTP GET /api/users responded 403 in 0.7951 ms
+2026-06-02 08:15:24.763 +05:45 [INF] HTTP GET /api/contact/messages responded 403 in 0.8484 ms
+2026-06-02 08:15:24.764 +05:45 [INF] HTTP GET /api/users responded 403 in 0.7356 ms
+2026-06-02 08:15:33.629 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.3883 ms
+2026-06-02 08:15:33.723 +05:45 [INF] HTTP GET /api/reviews responded 200 in 63.2067 ms
+2026-06-02 08:15:39.803 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.6310 ms
+2026-06-02 08:15:39.807 +05:45 [INF] HTTP OPTIONS /api/users responded 204 in 0.1179 ms
+2026-06-02 08:15:39.831 +05:45 [INF] HTTP GET /api/contact/messages responded 403 in 0.5096 ms
+2026-06-02 08:15:39.850 +05:45 [INF] HTTP GET /api/users responded 403 in 0.7452 ms
+2026-06-02 08:15:40.874 +05:45 [INF] HTTP GET /api/contact/messages responded 403 in 1.0465 ms
+2026-06-02 08:15:40.885 +05:45 [INF] HTTP GET /api/users responded 403 in 0.7577 ms
+2026-06-02 08:15:48.739 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.1591 ms
+2026-06-02 08:15:48.831 +05:45 [INF] HTTP GET /api/reviews responded 200 in 61.3948 ms
+2026-06-02 08:15:55.928 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.0728 ms
+2026-06-02 08:15:55.930 +05:45 [INF] HTTP OPTIONS /api/users responded 204 in 0.0936 ms
+2026-06-02 08:15:55.953 +05:45 [INF] HTTP GET /api/contact/messages responded 403 in 0.6245 ms
+2026-06-02 08:15:55.973 +05:45 [INF] HTTP GET /api/users responded 403 in 0.9082 ms
+2026-06-02 08:15:57.009 +05:45 [INF] HTTP GET /api/contact/messages responded 403 in 1.8903 ms
+2026-06-02 08:15:57.032 +05:45 [INF] HTTP GET /api/users responded 403 in 0.8113 ms
+2026-06-02 08:16:03.860 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.1267 ms
+2026-06-02 08:16:03.904 +05:45 [INF] HTTP GET /api/reviews responded 200 in 10.1517 ms
+2026-06-02 08:16:12.058 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.0913 ms
+2026-06-02 08:16:12.061 +05:45 [INF] HTTP OPTIONS /api/users responded 204 in 0.0752 ms
+2026-06-02 08:16:12.087 +05:45 [INF] HTTP GET /api/contact/messages responded 403 in 0.6245 ms
+2026-06-02 08:16:12.111 +05:45 [INF] HTTP GET /api/users responded 403 in 0.6253 ms
+2026-06-02 08:16:13.166 +05:45 [INF] HTTP GET /api/users responded 403 in 0.4592 ms
+2026-06-02 08:16:13.166 +05:45 [INF] HTTP GET /api/contact/messages responded 403 in 0.5240 ms
+2026-06-02 08:16:18.938 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.0954 ms
+2026-06-02 08:16:18.976 +05:45 [INF] HTTP GET /api/reviews responded 200 in 8.2024 ms
+2026-06-02 08:16:28.260 +05:45 [INF] HTTP OPTIONS /api/users responded 204 in 0.3781 ms
+2026-06-02 08:16:28.260 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.0622 ms
+2026-06-02 08:16:28.282 +05:45 [INF] HTTP GET /api/users responded 403 in 0.6227 ms
+2026-06-02 08:16:28.292 +05:45 [INF] HTTP GET /api/contact/messages responded 403 in 0.5717 ms
+2026-06-02 08:16:29.324 +05:45 [INF] HTTP GET /api/users responded 403 in 0.5030 ms
+2026-06-02 08:16:29.335 +05:45 [INF] HTTP GET /api/contact/messages responded 403 in 0.5638 ms
+2026-06-02 08:16:34.011 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.1216 ms
+2026-06-02 08:16:34.049 +05:45 [INF] HTTP GET /api/reviews responded 200 in 11.9959 ms
+2026-06-02 08:16:44.363 +05:45 [INF] HTTP OPTIONS /api/users responded 204 in 0.0891 ms
+2026-06-02 08:16:44.378 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.1126 ms
+2026-06-02 08:16:44.380 +05:45 [INF] HTTP GET /api/users responded 403 in 1.2279 ms
+2026-06-02 08:16:44.404 +05:45 [INF] HTTP GET /api/contact/messages responded 403 in 0.9978 ms
+2026-06-02 08:16:45.527 +05:45 [INF] HTTP GET /api/users responded 403 in 0.6937 ms
+2026-06-02 08:16:45.527 +05:45 [INF] HTTP GET /api/contact/messages responded 403 in 0.5170 ms
+2026-06-02 08:16:49.078 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.1169 ms
+2026-06-02 08:16:49.157 +05:45 [INF] HTTP GET /api/reviews responded 200 in 58.6430 ms
+2026-06-02 08:16:55.408 +05:45 [INF] HTTP OPTIONS /api/auth/logout responded 204 in 0.0529 ms
+2026-06-02 08:16:55.628 +05:45 [INF] HTTP POST /api/auth/logout responded 200 in 200.8077 ms
+2026-06-02 08:17:01.707 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.1309 ms
+2026-06-02 08:17:02.065 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 330.3875 ms
+2026-06-02 08:17:03.427 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.0413 ms
+2026-06-02 08:17:03.476 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 0.0966 ms
+2026-06-02 08:17:03.427 +05:45 [INF] HTTP OPTIONS /api/users responded 204 in 0.0562 ms
+2026-06-02 08:17:03.427 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.0691 ms
+2026-06-02 08:17:03.512 +05:45 [INF] HTTP GET /api/reviews responded 200 in 8.6627 ms
+2026-06-02 08:17:03.628 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 104.1622 ms
+2026-06-02 08:17:03.652 +05:45 [INF] HTTP GET /api/users responded 200 in 115.3225 ms
+2026-06-02 08:17:03.714 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 164.8219 ms
+2026-06-02 08:17:18.572 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.0693 ms
+2026-06-02 08:17:18.612 +05:45 [INF] HTTP GET /api/reviews responded 200 in 13.2062 ms
+2026-06-02 08:17:18.697 +05:45 [INF] HTTP OPTIONS /api/users responded 204 in 0.1097 ms
+2026-06-02 08:17:18.739 +05:45 [INF] HTTP GET /api/users responded 200 in 19.8842 ms
+2026-06-02 08:17:18.801 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.0834 ms
+2026-06-02 08:17:18.831 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 11.8029 ms
+2026-06-02 08:17:33.649 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.0819 ms
+2026-06-02 08:17:33.680 +05:45 [INF] HTTP GET /api/reviews responded 200 in 8.6905 ms
+2026-06-02 08:17:33.764 +05:45 [INF] HTTP OPTIONS /api/users responded 204 in 0.1030 ms
+2026-06-02 08:17:33.810 +05:45 [INF] HTTP GET /api/users responded 200 in 29.7558 ms
+2026-06-02 08:17:33.862 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.1025 ms
+2026-06-02 08:17:33.896 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 9.5398 ms
+2026-06-02 08:17:48.875 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.0847 ms
+2026-06-02 08:17:48.879 +05:45 [INF] HTTP OPTIONS /api/users responded 204 in 0.1044 ms
+2026-06-02 08:17:48.928 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.1285 ms
+2026-06-02 08:17:48.969 +05:45 [INF] HTTP GET /api/reviews responded 200 in 60.1273 ms
+2026-06-02 08:17:48.995 +05:45 [INF] HTTP GET /api/users responded 200 in 66.2679 ms
+2026-06-02 08:17:49.025 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 74.9990 ms
+2026-06-02 08:18:04.138 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.0906 ms
+2026-06-02 08:18:04.139 +05:45 [INF] HTTP OPTIONS /api/users responded 204 in 0.1040 ms
+2026-06-02 08:18:04.141 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.0596 ms
+2026-06-02 08:18:04.174 +05:45 [INF] HTTP GET /api/reviews responded 200 in 12.6645 ms
+2026-06-02 08:18:04.232 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 15.7272 ms
+2026-06-02 08:18:04.238 +05:45 [INF] HTTP GET /api/users responded 200 in 38.9575 ms
+2026-06-02 08:18:05.590 +05:45 [INF] HTTP OPTIONS /api/auth/logout responded 204 in 0.1147 ms
+2026-06-02 08:18:05.669 +05:45 [INF] HTTP POST /api/auth/logout responded 200 in 46.8690 ms
+2026-06-02 08:21:36.945 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.0851 ms
+2026-06-02 08:21:37.329 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 365.8730 ms
+2026-06-02 08:21:37.991 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.1234 ms
+2026-06-02 08:21:37.993 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.0729 ms
+2026-06-02 08:21:37.993 +05:45 [INF] HTTP OPTIONS /api/users responded 204 in 0.0514 ms
+2026-06-02 08:21:38.056 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 12.5932 ms
+2026-06-02 08:21:38.034 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 0.1006 ms
+2026-06-02 08:21:38.071 +05:45 [INF] HTTP GET /api/reviews responded 200 in 16.1840 ms
+2026-06-02 08:21:38.104 +05:45 [INF] HTTP GET /api/users responded 200 in 21.0251 ms
+2026-06-02 08:21:38.105 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 1.1231 ms
+2026-06-02 08:21:53.107 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.2681 ms
+2026-06-02 08:21:53.122 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.0949 ms
+2026-06-02 08:21:53.141 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 10.4529 ms
+2026-06-02 08:21:53.176 +05:45 [INF] HTTP OPTIONS /api/users responded 204 in 0.1187 ms
+2026-06-02 08:21:53.176 +05:45 [INF] HTTP GET /api/reviews responded 200 in 11.9392 ms
+2026-06-02 08:21:53.220 +05:45 [INF] HTTP GET /api/users responded 200 in 23.2713 ms
+2026-06-02 13:38:07.833 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-02 13:38:08.005 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-02 13:38:08.047 +05:45 [ERR] Error during database migration/seeding
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Migrations.PendingModelChangesWarning': The model for context 'AppDbContext' has pending changes. Add a new migration before updating the database. See https://aka.ms/efcore-docs-pending-changes. This exception can be suppressed or logged by passing event ID 'RelationalEventId.PendingModelChangesWarning' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`1.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, TParam arg)
+   at Microsoft.EntityFrameworkCore.Diagnostics.RelationalLoggerExtensions.PendingModelChangesWarning(IDiagnosticsLogger`1 diagnostics, Type contextType)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.ValidateMigrations(Boolean useTransaction, String targetMigration)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.MigrateAsync(String targetMigration, CancellationToken cancellationToken)
+   at Program.<Main>$(String[] args) in D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API\Program.cs:line 176
+2026-06-02 13:38:08.073 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-06-02 13:38:08.159 +05:45 [FTL] Application startup exception
+System.InvalidOperationException: Scheme already exists: Bearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at InvokeStub_AuthenticationSchemeProvider..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorInfoEx.GetService(IServiceProvider serviceProvider, Int32 parameterIndex)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2026-06-02 13:38:08.163 +05:45 [ERR] Hosting failed to start
+System.InvalidOperationException: Scheme already exists: Bearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at InvokeStub_AuthenticationSchemeProvider..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorInfoEx.GetService(IServiceProvider serviceProvider, Int32 parameterIndex)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2026-06-02 13:39:11.681 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-02 13:39:11.859 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-02 13:39:11.898 +05:45 [ERR] Error during database migration/seeding
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Migrations.PendingModelChangesWarning': The model for context 'AppDbContext' has pending changes. Add a new migration before updating the database. See https://aka.ms/efcore-docs-pending-changes. This exception can be suppressed or logged by passing event ID 'RelationalEventId.PendingModelChangesWarning' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`1.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, TParam arg)
+   at Microsoft.EntityFrameworkCore.Diagnostics.RelationalLoggerExtensions.PendingModelChangesWarning(IDiagnosticsLogger`1 diagnostics, Type contextType)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.ValidateMigrations(Boolean useTransaction, String targetMigration)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.MigrateAsync(String targetMigration, CancellationToken cancellationToken)
+   at Program.<Main>$(String[] args) in D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API\Program.cs:line 176
+2026-06-02 13:39:11.907 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-06-02 13:39:11.965 +05:45 [FTL] Application startup exception
+System.InvalidOperationException: Scheme already exists: Bearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at InvokeStub_AuthenticationSchemeProvider..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorInfoEx.GetService(IServiceProvider serviceProvider, Int32 parameterIndex)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2026-06-02 13:39:11.969 +05:45 [ERR] Hosting failed to start
+System.InvalidOperationException: Scheme already exists: Bearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at InvokeStub_AuthenticationSchemeProvider..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorInfoEx.GetService(IServiceProvider serviceProvider, Int32 parameterIndex)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2026-06-02 13:39:55.720 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-02 13:39:55.996 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-02 13:39:56.080 +05:45 [ERR] Error during database migration/seeding
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Migrations.PendingModelChangesWarning': The model for context 'AppDbContext' has pending changes. Add a new migration before updating the database. See https://aka.ms/efcore-docs-pending-changes. This exception can be suppressed or logged by passing event ID 'RelationalEventId.PendingModelChangesWarning' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`1.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, TParam arg)
+   at Microsoft.EntityFrameworkCore.Diagnostics.RelationalLoggerExtensions.PendingModelChangesWarning(IDiagnosticsLogger`1 diagnostics, Type contextType)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.ValidateMigrations(Boolean useTransaction, String targetMigration)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.MigrateAsync(String targetMigration, CancellationToken cancellationToken)
+   at Program.<Main>$(String[] args) in D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API\Program.cs:line 176
+2026-06-02 13:39:56.139 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-06-02 13:39:56.228 +05:45 [FTL] Application startup exception
+System.InvalidOperationException: Scheme already exists: Bearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at InvokeStub_AuthenticationSchemeProvider..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorInfoEx.GetService(IServiceProvider serviceProvider, Int32 parameterIndex)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2026-06-02 13:39:56.233 +05:45 [ERR] Hosting failed to start
+System.InvalidOperationException: Scheme already exists: Bearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at InvokeStub_AuthenticationSchemeProvider..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorInfoEx.GetService(IServiceProvider serviceProvider, Int32 parameterIndex)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2026-06-02 13:45:30.517 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-02 13:45:30.721 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-02 13:45:30.763 +05:45 [ERR] Error during database migration/seeding
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Migrations.PendingModelChangesWarning': The model for context 'AppDbContext' has pending changes. Add a new migration before updating the database. See https://aka.ms/efcore-docs-pending-changes. This exception can be suppressed or logged by passing event ID 'RelationalEventId.PendingModelChangesWarning' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`1.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, TParam arg)
+   at Microsoft.EntityFrameworkCore.Diagnostics.RelationalLoggerExtensions.PendingModelChangesWarning(IDiagnosticsLogger`1 diagnostics, Type contextType)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.ValidateMigrations(Boolean useTransaction, String targetMigration)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.MigrateAsync(String targetMigration, CancellationToken cancellationToken)
+   at Program.<Main>$(String[] args) in D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API\Program.cs:line 176
+2026-06-02 13:45:30.775 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-06-02 13:45:30.848 +05:45 [FTL] Application startup exception
+System.InvalidOperationException: Scheme already exists: Bearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at InvokeStub_AuthenticationSchemeProvider..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorInfoEx.GetService(IServiceProvider serviceProvider, Int32 parameterIndex)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2026-06-02 13:45:30.852 +05:45 [ERR] Hosting failed to start
+System.InvalidOperationException: Scheme already exists: Bearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at InvokeStub_AuthenticationSchemeProvider..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorInfoEx.GetService(IServiceProvider serviceProvider, Int32 parameterIndex)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2026-06-02 14:21:42.778 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-02 14:21:43.025 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-02 14:21:43.074 +05:45 [ERR] Error during database migration/seeding
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Migrations.PendingModelChangesWarning': The model for context 'AppDbContext' has pending changes. Add a new migration before updating the database. See https://aka.ms/efcore-docs-pending-changes. This exception can be suppressed or logged by passing event ID 'RelationalEventId.PendingModelChangesWarning' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`1.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, TParam arg)
+   at Microsoft.EntityFrameworkCore.Diagnostics.RelationalLoggerExtensions.PendingModelChangesWarning(IDiagnosticsLogger`1 diagnostics, Type contextType)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.ValidateMigrations(Boolean useTransaction, String targetMigration)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.MigrateAsync(String targetMigration, CancellationToken cancellationToken)
+   at Program.<Main>$(String[] args) in D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API\Program.cs:line 176
+2026-06-02 14:21:43.106 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-06-02 14:21:43.192 +05:45 [FTL] Application startup exception
+System.InvalidOperationException: Scheme already exists: Bearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at InvokeStub_AuthenticationSchemeProvider..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorInfoEx.GetService(IServiceProvider serviceProvider, Int32 parameterIndex)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2026-06-02 14:21:43.198 +05:45 [ERR] Hosting failed to start
+System.InvalidOperationException: Scheme already exists: Bearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at InvokeStub_AuthenticationSchemeProvider..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorInfoEx.GetService(IServiceProvider serviceProvider, Int32 parameterIndex)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2026-06-02 14:22:46.004 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-02 14:22:46.249 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-02 14:22:46.306 +05:45 [ERR] Error during database migration/seeding
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Migrations.PendingModelChangesWarning': The model for context 'AppDbContext' has pending changes. Add a new migration before updating the database. See https://aka.ms/efcore-docs-pending-changes. This exception can be suppressed or logged by passing event ID 'RelationalEventId.PendingModelChangesWarning' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`1.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, TParam arg)
+   at Microsoft.EntityFrameworkCore.Diagnostics.RelationalLoggerExtensions.PendingModelChangesWarning(IDiagnosticsLogger`1 diagnostics, Type contextType)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.ValidateMigrations(Boolean useTransaction, String targetMigration)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.MigrateAsync(String targetMigration, CancellationToken cancellationToken)
+   at Program.<Main>$(String[] args) in D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API\Program.cs:line 176
+2026-06-02 14:22:46.336 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-06-02 14:22:46.427 +05:45 [FTL] Application startup exception
+System.InvalidOperationException: Scheme already exists: Bearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at InvokeStub_AuthenticationSchemeProvider..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorInfoEx.GetService(IServiceProvider serviceProvider, Int32 parameterIndex)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2026-06-02 14:22:46.438 +05:45 [ERR] Hosting failed to start
+System.InvalidOperationException: Scheme already exists: Bearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at InvokeStub_AuthenticationSchemeProvider..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorInfoEx.GetService(IServiceProvider serviceProvider, Int32 parameterIndex)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2026-06-02 14:30:21.444 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-02 14:30:21.691 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-02 14:30:21.736 +05:45 [ERR] Error during database migration/seeding
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Migrations.PendingModelChangesWarning': The model for context 'AppDbContext' has pending changes. Add a new migration before updating the database. See https://aka.ms/efcore-docs-pending-changes. This exception can be suppressed or logged by passing event ID 'RelationalEventId.PendingModelChangesWarning' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`1.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, TParam arg)
+   at Microsoft.EntityFrameworkCore.Diagnostics.RelationalLoggerExtensions.PendingModelChangesWarning(IDiagnosticsLogger`1 diagnostics, Type contextType)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.ValidateMigrations(Boolean useTransaction, String targetMigration)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.MigrateAsync(String targetMigration, CancellationToken cancellationToken)
+   at Program.<Main>$(String[] args) in D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API\Program.cs:line 176
+2026-06-02 14:30:21.763 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-06-02 14:30:22.001 +05:45 [INF] Now listening on: https://localhost:7178
+2026-06-02 14:30:22.002 +05:45 [INF] Now listening on: http://localhost:5214
+2026-06-02 14:30:22.072 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-02 14:30:22.073 +05:45 [INF] Hosting environment: Development
+2026-06-02 14:30:22.074 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-06-02 14:30:23.010 +05:45 [INF] HTTP GET /swagger responded 301 in 6.0338 ms
+2026-06-02 14:30:23.158 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 121.4397 ms
+2026-06-02 14:30:23.220 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 1.6873 ms
+2026-06-02 14:30:23.330 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 13.6891 ms
+2026-06-02 15:01:05.952 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-02 15:01:06.136 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-02 15:01:06.167 +05:45 [ERR] Error during database migration/seeding
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Migrations.PendingModelChangesWarning': The model for context 'AppDbContext' has pending changes. Add a new migration before updating the database. See https://aka.ms/efcore-docs-pending-changes. This exception can be suppressed or logged by passing event ID 'RelationalEventId.PendingModelChangesWarning' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`1.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, TParam arg)
+   at Microsoft.EntityFrameworkCore.Diagnostics.RelationalLoggerExtensions.PendingModelChangesWarning(IDiagnosticsLogger`1 diagnostics, Type contextType)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.ValidateMigrations(Boolean useTransaction, String targetMigration)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.MigrateAsync(String targetMigration, CancellationToken cancellationToken)
+   at Program.<Main>$(String[] args) in D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API\Program.cs:line 176
+2026-06-02 15:01:06.178 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-06-02 15:01:06.364 +05:45 [INF] Now listening on: https://localhost:7178
+2026-06-02 15:01:06.365 +05:45 [INF] Now listening on: http://localhost:5214
+2026-06-02 15:01:06.415 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-02 15:01:06.416 +05:45 [INF] Hosting environment: Development
+2026-06-02 15:01:06.417 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-06-02 15:01:07.554 +05:45 [INF] HTTP GET /swagger responded 301 in 4.2563 ms
+2026-06-02 15:01:07.625 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 45.4995 ms
+2026-06-02 15:01:07.664 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 1.1813 ms
+2026-06-02 15:01:07.754 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 11.0931 ms
+2026-06-02 15:37:40.873 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-02 15:38:55.564 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-02 15:38:58.568 +05:45 [INF] Database migrated and seeded successfully
+2026-06-02 15:38:58.572 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-06-02 15:38:58.708 +05:45 [INF] Now listening on: https://localhost:7178
+2026-06-02 15:38:58.822 +05:45 [INF] Now listening on: http://localhost:5214
+2026-06-02 15:38:58.970 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-02 15:38:58.976 +05:45 [INF] Hosting environment: Development
+2026-06-02 15:38:58.985 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-06-02 15:38:59.933 +05:45 [INF] HTTP GET /swagger responded 301 in 4.3260 ms
+2026-06-02 15:39:00.020 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 50.7448 ms
+2026-06-02 15:39:00.098 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 30.5544 ms
+2026-06-02 15:39:00.174 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 17.2733 ms
+2026-06-02 15:46:31.934 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-02 16:04:24.532 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-02 16:04:25.652 +05:45 [INF] Database migrated and seeded successfully
+2026-06-02 16:04:25.657 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-06-02 16:04:25.960 +05:45 [INF] Now listening on: https://localhost:7178
+2026-06-02 16:04:25.965 +05:45 [INF] Now listening on: http://localhost:5214
+2026-06-02 16:04:26.021 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-02 16:04:26.026 +05:45 [INF] Hosting environment: Development
+2026-06-02 16:04:26.028 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-06-02 16:04:27.032 +05:45 [INF] HTTP GET /swagger responded 301 in 4.3411 ms
+2026-06-02 16:04:27.119 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 56.8535 ms
+2026-06-02 16:04:27.173 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 1.6924 ms
+2026-06-02 16:04:27.346 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 14.8325 ms
+2026-06-02 16:04:45.909 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 5.7590 ms
+2026-06-02 16:04:50.337 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 4414.6919 ms
+2026-06-02 16:04:51.850 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.4993 ms
+2026-06-02 16:04:51.850 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.0651 ms
+2026-06-02 16:04:51.850 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 0.0650 ms
+2026-06-02 16:04:52.051 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 197.1003 ms
+2026-06-02 16:04:52.051 +05:45 [INF] HTTP GET /api/reviews responded 200 in 195.2749 ms
+2026-06-02 16:04:52.169 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 311.9880 ms
+2026-06-02 16:04:54.486 +05:45 [INF] HTTP OPTIONS /api/users responded 204 in 0.0811 ms
+2026-06-02 16:04:54.518 +05:45 [INF] HTTP GET /api/users responded 200 in 28.1554 ms
+2026-06-02 16:05:06.960 +05:45 [INF] HTTP OPTIONS /api/users/1013/status responded 204 in 0.1508 ms
+2026-06-02 16:05:07.058 +05:45 [INF] HTTP PATCH /api/users/1013/status responded 200 in 91.3318 ms
+2026-06-02 16:05:07.062 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.1190 ms
+2026-06-02 16:05:07.064 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.1673 ms
+2026-06-02 16:05:07.070 +05:45 [INF] HTTP OPTIONS /api/users responded 204 in 0.0965 ms
+2026-06-02 16:05:07.077 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 7.8381 ms
+2026-06-02 16:05:07.082 +05:45 [INF] HTTP GET /api/reviews responded 200 in 6.1214 ms
+2026-06-02 16:05:07.082 +05:45 [INF] HTTP GET /api/users responded 200 in 3.9070 ms
+2026-06-02 16:05:07.529 +05:45 [INF] HTTP PATCH /api/users/1013/status responded 200 in 25.0095 ms
+2026-06-02 16:05:07.557 +05:45 [INF] HTTP GET /api/users responded 200 in 14.8608 ms
+2026-06-02 16:05:17.224 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.1712 ms
+2026-06-02 16:05:17.225 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.0464 ms
+2026-06-02 16:05:17.225 +05:45 [INF] HTTP OPTIONS /api/users responded 204 in 0.0532 ms
+2026-06-02 16:05:17.230 +05:45 [INF] HTTP GET /api/reviews responded 200 in 2.0223 ms
+2026-06-02 16:05:17.232 +05:45 [INF] HTTP GET /api/users responded 200 in 1.8751 ms
+2026-06-02 16:05:17.241 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 14.3164 ms
+2026-06-02 16:05:25.840 +05:45 [INF] HTTP OPTIONS /api/blogs responded 204 in 0.2831 ms
+2026-06-02 16:05:25.907 +05:45 [INF] HTTP GET /api/blogs responded 200 in 65.0543 ms
+2026-06-02 16:05:32.243 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.0880 ms
+2026-06-02 16:05:32.248 +05:45 [INF] HTTP GET /api/reviews responded 200 in 3.1672 ms
+2026-06-02 16:05:32.248 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.0600 ms
+2026-06-02 16:05:32.260 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 2.5651 ms
+2026-06-02 16:05:32.289 +05:45 [INF] HTTP OPTIONS /api/auth/logout responded 204 in 0.1149 ms
+2026-06-02 16:05:32.388 +05:45 [INF] HTTP POST /api/auth/logout responded 200 in 95.0980 ms
+2026-06-02 16:05:55.400 +05:45 [INF] HTTP GET /api/reviews/approved responded 200 in 29.8733 ms
+2026-06-02 16:06:02.163 +05:45 [INF] HTTP GET /api/blogs responded 200 in 37.9160 ms
+2026-06-02 16:08:18.434 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.1512 ms
+2026-06-02 16:08:18.622 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 181.8873 ms
+2026-06-02 16:08:18.735 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.0616 ms
+2026-06-02 16:08:18.736 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.0826 ms
+2026-06-02 16:08:18.740 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 1.7504 ms
+2026-06-02 16:08:18.851 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 105.8694 ms
+2026-06-02 16:08:18.852 +05:45 [INF] HTTP GET /api/reviews responded 200 in 105.2610 ms
+2026-06-02 16:08:18.909 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 52.5565 ms
+2026-06-02 16:08:21.980 +05:45 [INF] HTTP OPTIONS /api/auth/logout responded 204 in 0.0547 ms
+2026-06-02 16:08:21.999 +05:45 [INF] HTTP POST /api/auth/logout responded 200 in 11.6803 ms
+2026-06-02 16:11:58.182 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-02 16:11:59.431 +05:45 [INF] Database migrated and seeded successfully
+2026-06-02 16:11:59.442 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-06-02 16:11:59.626 +05:45 [INF] Now listening on: https://localhost:7178
+2026-06-02 16:11:59.681 +05:45 [INF] Now listening on: http://localhost:5214
+2026-06-02 16:11:59.859 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-02 16:11:59.864 +05:45 [INF] Hosting environment: Development
+2026-06-02 16:11:59.868 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-06-02 16:12:00.892 +05:45 [INF] HTTP GET /swagger responded 301 in 6.7474 ms
+2026-06-02 16:12:00.985 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 59.8709 ms
+2026-06-02 16:12:01.021 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 1.3475 ms
+2026-06-02 16:12:01.179 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 13.5608 ms
+2026-06-02 16:12:22.212 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 2.8414 ms
+2026-06-02 16:12:22.598 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 373.9740 ms
+2026-06-02 16:12:22.784 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 26.2949 ms
+2026-06-02 16:12:22.784 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 26.3094 ms
+2026-06-02 16:12:22.784 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 26.3331 ms
+2026-06-02 16:12:22.920 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 128.3055 ms
+2026-06-02 16:12:22.920 +05:45 [INF] HTTP GET /api/reviews responded 200 in 126.3076 ms
+2026-06-02 16:12:23.022 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 231.6265 ms
+2026-06-02 16:12:27.966 +05:45 [INF] HTTP OPTIONS /api/users responded 204 in 0.2132 ms
+2026-06-02 16:12:27.998 +05:45 [INF] HTTP GET /api/users responded 200 in 25.6975 ms
+2026-06-02 16:12:37.986 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.1075 ms
+2026-06-02 16:12:37.986 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.0534 ms
+2026-06-02 16:12:37.991 +05:45 [INF] HTTP GET /api/reviews responded 200 in 2.6468 ms
+2026-06-02 16:12:37.991 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 3.3606 ms
+2026-06-02 16:12:45.174 +05:45 [INF] HTTP OPTIONS /api/users/1013/status responded 204 in 0.1176 ms
+2026-06-02 16:12:45.270 +05:45 [INF] HTTP PATCH /api/users/1013/status responded 200 in 92.9537 ms
+2026-06-02 16:12:45.275 +05:45 [INF] HTTP OPTIONS /api/users responded 204 in 0.0675 ms
+2026-06-02 16:12:45.289 +05:45 [INF] HTTP GET /api/users responded 200 in 4.4462 ms
+2026-06-02 16:12:46.263 +05:45 [INF] HTTP PATCH /api/users/1013/status responded 200 in 17.3211 ms
+2026-06-02 16:12:46.283 +05:45 [INF] HTTP GET /api/users responded 200 in 10.0645 ms
+2026-06-02 16:12:52.759 +05:45 [INF] HTTP OPTIONS /api/blogs responded 204 in 0.1309 ms
+2026-06-02 16:12:52.841 +05:45 [INF] HTTP GET /api/blogs responded 200 in 77.4404 ms
+2026-06-02 16:12:53.010 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.2212 ms
+2026-06-02 16:12:53.012 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.0706 ms
+2026-06-02 16:12:53.021 +05:45 [INF] HTTP GET /api/reviews responded 200 in 3.7860 ms
+2026-06-02 16:12:53.023 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 3.9902 ms
+2026-06-02 16:12:55.864 +05:45 [INF] HTTP OPTIONS /api/auth/logout responded 204 in 0.2445 ms
+2026-06-02 16:12:55.908 +05:45 [INF] HTTP POST /api/auth/logout responded 200 in 39.2012 ms
+2026-06-02 16:13:10.944 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.1007 ms
+2026-06-02 16:13:11.026 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 75.7761 ms
+2026-06-02 16:13:11.146 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.1197 ms
+2026-06-02 16:13:11.148 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.0852 ms
+2026-06-02 16:13:11.148 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 0.0524 ms
+2026-06-02 16:13:11.157 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 4.7442 ms
+2026-06-02 16:13:11.199 +05:45 [INF] HTTP GET /api/reviews responded 200 in 43.4672 ms
+2026-06-02 16:13:11.212 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 12.5497 ms
+2026-06-02 16:13:13.286 +05:45 [INF] HTTP OPTIONS /api/auth/logout responded 204 in 0.3639 ms
+2026-06-02 16:13:13.309 +05:45 [INF] HTTP POST /api/auth/logout responded 200 in 17.1103 ms
+2026-06-02 16:13:47.457 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.3097 ms
+2026-06-02 16:13:47.571 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 108.2420 ms
+2026-06-02 16:13:47.676 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.0436 ms
+2026-06-02 16:13:47.678 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 0.0831 ms
+2026-06-02 16:13:47.678 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.0818 ms
+2026-06-02 16:13:47.688 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 6.5820 ms
+2026-06-02 16:13:47.692 +05:45 [INF] HTTP GET /api/reviews responded 200 in 3.9203 ms
+2026-06-02 16:13:47.708 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 23.3849 ms
+2026-06-02 16:13:49.633 +05:45 [INF] HTTP OPTIONS /api/auth/logout responded 204 in 0.0649 ms
+2026-06-02 16:13:49.651 +05:45 [INF] HTTP POST /api/auth/logout responded 200 in 12.5020 ms
+2026-06-02 16:13:57.745 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-02 16:13:58.674 +05:45 [INF] Database migrated and seeded successfully
+2026-06-02 16:13:58.677 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-06-02 16:13:58.841 +05:45 [INF] Now listening on: https://localhost:7178
+2026-06-02 16:13:58.870 +05:45 [INF] Now listening on: http://localhost:5214
+2026-06-02 16:13:58.931 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-02 16:13:58.934 +05:45 [INF] Hosting environment: Development
+2026-06-02 16:13:58.935 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-06-02 16:14:00.048 +05:45 [INF] HTTP GET /swagger responded 301 in 5.9948 ms
+2026-06-02 16:14:00.121 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 39.7294 ms
+2026-06-02 16:14:00.156 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 0.9189 ms
+2026-06-02 16:14:00.277 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 8.8280 ms
+2026-06-02 16:18:29.109 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 5.8482 ms
+2026-06-02 16:18:29.588 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 469.9393 ms
+2026-06-02 16:18:29.715 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.2355 ms
+2026-06-02 16:18:29.715 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.3691 ms
+2026-06-02 16:18:29.715 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 0.2319 ms
+2026-06-02 16:18:29.903 +05:45 [INF] HTTP GET /api/reviews responded 200 in 181.8235 ms
+2026-06-02 16:18:29.916 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 196.7363 ms
+2026-06-02 16:18:30.029 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 306.6490 ms
+2026-06-02 16:18:44.933 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.3500 ms
+2026-06-02 16:18:44.935 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.1137 ms
+2026-06-02 16:18:44.948 +05:45 [INF] HTTP GET /api/reviews responded 200 in 8.8051 ms
+2026-06-02 16:18:44.952 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 9.9803 ms
+2026-06-02 16:18:58.266 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.2257 ms
+2026-06-02 16:18:58.266 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.0560 ms
+2026-06-02 16:18:58.291 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 22.0507 ms
+2026-06-02 16:18:58.292 +05:45 [INF] HTTP GET /api/reviews responded 200 in 21.4171 ms
+2026-06-02 16:19:00.627 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 0.1744 ms
+2026-06-02 16:19:00.669 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 37.2883 ms
+2026-06-02 16:19:04.849 +05:45 [INF] HTTP OPTIONS /api/users responded 204 in 0.0688 ms
+2026-06-02 16:19:04.877 +05:45 [INF] HTTP GET /api/users responded 200 in 25.1497 ms
+2026-06-02 16:19:06.907 +05:45 [INF] HTTP OPTIONS /api/users/1013/status responded 204 in 0.0680 ms
+2026-06-02 16:19:06.980 +05:45 [INF] HTTP PATCH /api/users/1013/status responded 200 in 68.5405 ms
+2026-06-02 16:19:06.999 +05:45 [INF] HTTP GET /api/users responded 200 in 5.3913 ms
+2026-06-02 16:19:07.666 +05:45 [INF] HTTP PATCH /api/users/1013/status responded 200 in 19.6850 ms
+2026-06-02 16:19:07.683 +05:45 [INF] HTTP GET /api/users responded 200 in 6.1103 ms
+2026-06-02 16:19:11.332 +05:45 [INF] HTTP OPTIONS /api/blogs responded 204 in 0.1699 ms
+2026-06-02 16:19:11.419 +05:45 [INF] HTTP GET /api/blogs responded 200 in 84.1510 ms
+2026-06-02 16:19:13.316 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.1601 ms
+2026-06-02 16:19:13.323 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.1733 ms
+2026-06-02 16:19:13.328 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 5.0051 ms
+2026-06-02 16:19:13.333 +05:45 [INF] HTTP GET /api/reviews responded 200 in 4.5469 ms
+2026-06-02 16:19:15.634 +05:45 [INF] HTTP OPTIONS /api/auth/logout responded 204 in 0.1390 ms
+2026-06-02 16:19:15.661 +05:45 [INF] HTTP POST /api/auth/logout responded 200 in 24.1048 ms
+2026-06-02 16:19:28.684 +05:45 [INF] HTTP GET /api/blogs responded 200 in 24.8122 ms
+2026-06-02 16:21:49.447 +05:45 [INF] HTTP GET /api/blogs/how-ai-is-revolutionizing-healthcare-systems responded 200 in 134.3186 ms
+2026-06-02 16:21:52.022 +05:45 [INF] HTTP GET /api/blogs responded 200 in 27.7047 ms

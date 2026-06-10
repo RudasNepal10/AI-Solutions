@@ -1,0 +1,48 @@
+2026-05-25 12:59:30.391 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-25 12:59:32.116 +05:45 [INF] Database migrated and seeded successfully
+2026-05-25 12:59:32.120 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-05-25 12:59:32.289 +05:45 [INF] Now listening on: https://localhost:7178
+2026-05-25 12:59:32.290 +05:45 [INF] Now listening on: http://localhost:5214
+2026-05-25 12:59:32.344 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-25 12:59:32.346 +05:45 [INF] Hosting environment: Development
+2026-05-25 12:59:32.347 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-05-25 12:59:33.620 +05:45 [INF] HTTP GET /swagger responded 301 in 7.3066 ms
+2026-05-25 12:59:33.688 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 42.2929 ms
+2026-05-25 12:59:33.718 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 1.1585 ms
+2026-05-25 12:59:33.937 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 12.1865 ms
+2026-05-25 13:00:07.984 +05:45 [INF] HTTP GET /api/blogs responded 200 in 3794.6110 ms
+2026-05-25 13:00:08.021 +05:45 [INF] HTTP GET /uploads/1fc4a6be-6787-4a74-804b-18a52988d1af.png responded 304 in 10.3516 ms
+2026-05-25 13:00:08.021 +05:45 [INF] HTTP GET /uploads/de8415a5-33e9-4f2a-b56b-1a08b0f79af3.jpg responded 304 in 11.0444 ms
+2026-05-25 13:00:08.021 +05:45 [INF] HTTP GET /uploads/ad02e4e2-067b-4e3e-afce-96b4eaa8b4f8.webp responded 304 in 11.0009 ms
+2026-05-25 13:00:16.046 +05:45 [INF] HTTP GET /api/blogs/top-ai-technology-trends-in-2026 responded 200 in 202.4766 ms
+2026-05-25 13:00:22.413 +05:45 [INF] HTTP GET /api/blogs/ethical-ai-when-the-model-imposes-values-your-organisation-did-not-choose responded 200 in 33.7565 ms
+2026-05-25 13:00:40.565 +05:45 [INF] HTTP GET /api/blogs responded 200 in 20.9980 ms
+2026-05-25 13:00:40.806 +05:45 [INF] HTTP GET /api/blogs responded 200 in 6.5536 ms
+2026-05-25 13:00:41.878 +05:45 [INF] HTTP GET /api/blogs responded 200 in 23.5084 ms
+2026-05-25 13:00:42.031 +05:45 [INF] HTTP GET /api/blogs responded 200 in 27.0995 ms
+2026-05-25 13:00:42.172 +05:45 [INF] HTTP GET /api/blogs responded 200 in 18.8995 ms
+2026-05-25 13:00:42.271 +05:45 [INF] HTTP GET /api/blogs responded 200 in 6.1354 ms
+2026-05-25 13:00:42.405 +05:45 [INF] HTTP GET /api/blogs responded 200 in 6.0954 ms
+2026-05-25 13:00:49.375 +05:45 [INF] HTTP GET /api/blogs responded 200 in 3.9948 ms
+2026-05-25 13:00:49.626 +05:45 [INF] HTTP GET /api/blogs responded 200 in 4.4243 ms
+2026-05-25 13:00:50.029 +05:45 [INF] HTTP GET /api/blogs responded 200 in 3.2425 ms
+2026-05-25 13:00:50.224 +05:45 [INF] HTTP GET /api/blogs responded 200 in 6.5442 ms
+2026-05-25 13:00:50.530 +05:45 [INF] HTTP GET /api/blogs responded 200 in 8.5489 ms
+2026-05-25 13:00:50.664 +05:45 [INF] HTTP GET /api/blogs responded 200 in 3.1544 ms
+2026-05-25 13:00:50.994 +05:45 [INF] HTTP GET /api/blogs responded 200 in 3.0166 ms
+2026-05-25 13:01:23.332 +05:45 [INF] HTTP GET /api/reviews/approved responded 200 in 27.7331 ms
+2026-05-25 13:02:39.488 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 1.2109 ms
+2026-05-25 13:02:39.876 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 376.8682 ms
+2026-05-25 13:02:40.294 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 0.3786 ms
+2026-05-25 13:02:40.403 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 104.2073 ms
+2026-05-25 13:02:43.727 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.0853 ms
+2026-05-25 13:02:43.750 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 17.8770 ms
+2026-05-25 13:02:47.365 +05:45 [INF] HTTP OPTIONS /api/contact/3/resolve responded 204 in 0.1106 ms
+2026-05-25 13:02:47.481 +05:45 [INF] HTTP PUT /api/contact/3/resolve responded 200 in 105.9268 ms
+2026-05-25 13:02:47.494 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 3.0409 ms
+2026-05-25 13:02:59.865 +05:45 [INF] HTTP OPTIONS /api/blogs responded 204 in 0.1109 ms
+2026-05-25 13:02:59.886 +05:45 [INF] HTTP GET /api/blogs responded 200 in 15.2945 ms
+2026-05-25 13:03:08.933 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.0726 ms
+2026-05-25 13:03:08.950 +05:45 [INF] HTTP GET /api/reviews responded 200 in 11.5248 ms
+2026-05-25 13:03:58.754 +05:45 [INF] HTTP OPTIONS /api/blogs responded 204 in 0.2722 ms
+2026-05-25 13:03:58.775 +05:45 [INF] HTTP GET /api/blogs responded 200 in 18.1960 ms

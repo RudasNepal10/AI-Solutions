@@ -1,0 +1,320 @@
+2026-06-04 21:33:38.234 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-04 21:33:40.281 +05:45 [INF] Database migrated and seeded successfully
+2026-06-04 21:33:40.289 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-06-04 21:33:40.535 +05:45 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address https://127.0.0.1:7178: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2026-06-04 21:34:04.883 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-04 21:34:06.149 +05:45 [INF] Database migrated and seeded successfully
+2026-06-04 21:34:06.158 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-06-04 21:34:06.379 +05:45 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address https://127.0.0.1:7178: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2026-06-04 21:34:25.553 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-04 21:34:27.094 +05:45 [INF] Database migrated and seeded successfully
+2026-06-04 21:34:27.105 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-06-04 21:34:27.489 +05:45 [INF] Now listening on: https://localhost:7178
+2026-06-04 21:34:27.492 +05:45 [INF] Now listening on: http://localhost:5214
+2026-06-04 21:34:27.594 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-04 21:34:27.597 +05:45 [INF] Hosting environment: Development
+2026-06-04 21:34:27.602 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-06-04 21:34:27.880 +05:45 [INF] HTTP GET /swagger responded 301 in 6.7927 ms
+2026-06-04 21:34:27.964 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 48.8282 ms
+2026-06-04 21:34:27.988 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 1.0469 ms
+2026-06-04 21:34:28.198 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 34.1822 ms
+2026-06-04 21:36:39.098 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-04 21:36:40.096 +05:45 [INF] Database migrated and seeded successfully
+2026-06-04 21:36:40.100 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-06-04 21:36:40.165 +05:45 [INF] Now listening on: https://localhost:7178
+2026-06-04 21:36:40.165 +05:45 [INF] Now listening on: http://localhost:5214
+2026-06-04 21:36:40.166 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-04 21:36:40.167 +05:45 [INF] Hosting environment: Development
+2026-06-04 21:36:40.167 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-06-04 21:37:50.355 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-04 21:37:53.872 +05:45 [INF] Database migrated and seeded successfully
+2026-06-04 21:37:53.879 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-06-04 21:37:54.103 +05:45 [INF] Now listening on: https://localhost:7178
+2026-06-04 21:37:54.107 +05:45 [INF] Now listening on: http://localhost:5214
+2026-06-04 21:37:54.168 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-04 21:37:54.171 +05:45 [INF] Hosting environment: Development
+2026-06-04 21:37:54.173 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-06-04 21:37:55.018 +05:45 [INF] HTTP GET /swagger responded 301 in 4.8927 ms
+2026-06-04 21:37:55.110 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 54.8376 ms
+2026-06-04 21:37:55.170 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 1.0363 ms
+2026-06-04 21:37:55.275 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 15.7740 ms
+2026-06-04 21:38:20.937 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 0.6843 ms
+2026-06-04 21:38:20.950 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 0.5224 ms
+2026-06-04 21:38:21.052 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 16.7010 ms
+2026-06-04 21:42:21.797 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-04 21:42:22.772 +05:45 [INF] Database migrated and seeded successfully
+2026-06-04 21:42:22.775 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-06-04 21:42:22.923 +05:45 [INF] Now listening on: https://localhost:7178
+2026-06-04 21:42:22.924 +05:45 [INF] Now listening on: http://localhost:5214
+2026-06-04 21:42:22.970 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-04 21:42:22.981 +05:45 [INF] Hosting environment: Development
+2026-06-04 21:42:22.991 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-06-04 21:42:24.024 +05:45 [INF] HTTP GET /swagger responded 301 in 3.9607 ms
+2026-06-04 21:42:24.099 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 47.6303 ms
+2026-06-04 21:42:24.137 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 1.3498 ms
+2026-06-04 21:42:24.241 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 19.9558 ms
+2026-06-04 21:46:35.718 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 12.3579 ms
+2026-06-04 21:46:39.956 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 4218.5732 ms
+2026-06-04 21:46:40.095 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.5475 ms
+2026-06-04 21:46:40.095 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 0.0556 ms
+2026-06-04 21:46:40.095 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.1175 ms
+2026-06-04 21:46:40.262 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 163.7266 ms
+2026-06-04 21:46:40.268 +05:45 [INF] HTTP GET /api/reviews responded 200 in 161.9392 ms
+2026-06-04 21:46:40.369 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 266.8096 ms
+2026-06-04 21:47:29.936 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.1909 ms
+2026-06-04 21:47:29.992 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 52.2633 ms
+2026-06-04 21:47:30.123 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.1685 ms
+2026-06-04 21:47:30.126 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.2561 ms
+2026-06-04 21:47:30.126 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 0.0726 ms
+2026-06-04 21:47:30.133 +05:45 [INF] HTTP GET /api/reviews responded 200 in 4.2479 ms
+2026-06-04 21:47:30.134 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 4.8545 ms
+2026-06-04 21:47:30.153 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 15.8749 ms
+2026-06-04 21:47:31.823 +05:45 [INF] HTTP OPTIONS /api/users responded 204 in 0.1833 ms
+2026-06-04 21:47:31.846 +05:45 [INF] HTTP GET /api/users responded 200 in 18.4822 ms
+2026-06-04 21:47:44.217 +05:45 [INF] HTTP OPTIONS /api/users responded 204 in 0.1752 ms
+2026-06-04 21:47:44.264 +05:45 [INF] HTTP POST /api/users responded 400 in 41.3150 ms
+2026-06-04 21:47:45.158 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.1200 ms
+2026-06-04 21:47:45.159 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.0781 ms
+2026-06-04 21:47:45.575 +05:45 [INF] HTTP GET /api/reviews responded 200 in 404.2597 ms
+2026-06-04 21:47:45.576 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 397.4671 ms
+2026-06-04 21:47:53.581 +05:45 [INF] HTTP OPTIONS /api/users responded 204 in 0.2516 ms
+2026-06-04 21:47:53.798 +05:45 [INF] HTTP POST /api/users responded 201 in 209.1322 ms
+2026-06-04 21:47:53.818 +05:45 [INF] HTTP GET /api/users responded 200 in 11.6054 ms
+2026-06-04 21:47:58.632 +05:45 [INF] HTTP OPTIONS /api/users/1014/status responded 204 in 0.0737 ms
+2026-06-04 21:47:58.707 +05:45 [INF] HTTP PATCH /api/users/1014/status responded 200 in 64.4560 ms
+2026-06-04 21:47:58.721 +05:45 [INF] HTTP OPTIONS /api/users responded 204 in 0.1542 ms
+2026-06-04 21:47:58.731 +05:45 [INF] HTTP GET /api/users responded 200 in 4.7385 ms
+2026-06-04 21:47:59.722 +05:45 [INF] HTTP PATCH /api/users/1014/status responded 200 in 10.2053 ms
+2026-06-04 21:47:59.737 +05:45 [INF] HTTP GET /api/users responded 200 in 3.6424 ms
+2026-06-04 21:48:00.594 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.0608 ms
+2026-06-04 21:48:00.594 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.0296 ms
+2026-06-04 21:48:00.601 +05:45 [INF] HTTP GET /api/reviews responded 200 in 2.5314 ms
+2026-06-04 21:48:00.603 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 2.5783 ms
+2026-06-04 21:48:01.693 +05:45 [INF] HTTP OPTIONS /api/users/1014 responded 204 in 0.0530 ms
+2026-06-04 21:48:01.718 +05:45 [INF] HTTP DELETE /api/users/1014 responded 200 in 20.7735 ms
+2026-06-04 21:48:01.733 +05:45 [INF] HTTP GET /api/users responded 200 in 3.0543 ms
+2026-06-04 21:48:15.618 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.0867 ms
+2026-06-04 21:48:15.619 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.0703 ms
+2026-06-04 21:48:15.624 +05:45 [INF] HTTP GET /api/reviews responded 200 in 2.6199 ms
+2026-06-04 21:48:15.626 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 2.4018 ms
+2026-06-04 21:48:22.732 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.0609 ms
+2026-06-04 21:48:22.733 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.0459 ms
+2026-06-04 21:48:22.733 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 0.0244 ms
+2026-06-04 21:48:22.738 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 2.1931 ms
+2026-06-04 21:48:22.745 +05:45 [INF] HTTP GET /api/reviews responded 200 in 7.5184 ms
+2026-06-04 21:48:22.787 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 42.2073 ms
+2026-06-04 21:48:27.037 +05:45 [INF] HTTP OPTIONS /api/auth/logout responded 204 in 0.0527 ms
+2026-06-04 21:48:27.109 +05:45 [INF] HTTP POST /api/auth/logout responded 200 in 66.6830 ms
+2026-06-04 21:53:10.563 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-04 21:53:14.062 +05:45 [INF] Database migrated and seeded successfully
+2026-06-04 21:53:14.068 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-06-04 21:53:14.222 +05:45 [INF] Now listening on: https://localhost:7178
+2026-06-04 21:53:14.223 +05:45 [INF] Now listening on: http://localhost:5214
+2026-06-04 21:53:14.265 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-04 21:53:14.266 +05:45 [INF] Hosting environment: Development
+2026-06-04 21:53:14.267 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-06-04 21:53:15.417 +05:45 [INF] HTTP GET /swagger responded 301 in 4.6218 ms
+2026-06-04 21:53:15.500 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 50.2158 ms
+2026-06-04 21:53:15.543 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 6.1505 ms
+2026-06-04 21:53:15.646 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 28.6152 ms
+2026-06-04 21:53:31.289 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 8.5723 ms
+2026-06-04 21:53:31.773 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 469.5175 ms
+2026-06-04 21:53:31.980 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.3981 ms
+2026-06-04 21:53:31.982 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 0.1356 ms
+2026-06-04 21:53:31.982 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.1377 ms
+2026-06-04 21:53:32.096 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 109.5498 ms
+2026-06-04 21:53:32.096 +05:45 [INF] HTTP GET /api/reviews responded 200 in 103.3382 ms
+2026-06-04 21:53:32.160 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 170.4948 ms
+2026-06-04 22:00:18.153 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-04 22:00:19.303 +05:45 [INF] Database migrated and seeded successfully
+2026-06-04 22:00:19.306 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-06-04 22:00:19.519 +05:45 [INF] Now listening on: https://localhost:7178
+2026-06-04 22:00:19.522 +05:45 [INF] Now listening on: http://localhost:5214
+2026-06-04 22:00:19.608 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-04 22:00:19.632 +05:45 [INF] Hosting environment: Development
+2026-06-04 22:00:19.637 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-06-04 22:00:20.672 +05:45 [INF] HTTP GET /swagger responded 301 in 5.2330 ms
+2026-06-04 22:00:20.750 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 44.9929 ms
+2026-06-04 22:00:20.786 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 0.6265 ms
+2026-06-04 22:00:20.896 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 19.7129 ms
+2026-06-04 22:04:13.957 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 5.0308 ms
+2026-06-04 22:04:14.464 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 498.3025 ms
+2026-06-04 22:04:14.672 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.2095 ms
+2026-06-04 22:04:14.672 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.3917 ms
+2026-06-04 22:04:14.672 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 0.0407 ms
+2026-06-04 22:04:14.929 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 253.3266 ms
+2026-06-04 22:04:14.937 +05:45 [INF] HTTP GET /api/reviews responded 200 in 225.3463 ms
+2026-06-04 22:04:15.069 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 352.7677 ms
+2026-06-04 22:13:46.727 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-04 22:13:47.713 +05:45 [INF] Database migrated and seeded successfully
+2026-06-04 22:13:47.724 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-06-04 22:13:47.868 +05:45 [INF] Now listening on: https://localhost:7178
+2026-06-04 22:13:47.873 +05:45 [INF] Now listening on: http://localhost:5214
+2026-06-04 22:13:47.940 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-04 22:13:47.946 +05:45 [INF] Hosting environment: Development
+2026-06-04 22:13:47.948 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-06-04 22:13:48.848 +05:45 [INF] HTTP GET /swagger responded 301 in 5.0722 ms
+2026-06-04 22:13:48.924 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 55.4431 ms
+2026-06-04 22:13:48.980 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 26.0787 ms
+2026-06-04 22:13:49.025 +05:45 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 304 in 76.3126 ms
+2026-06-04 22:13:49.025 +05:45 [INF] HTTP GET /swagger/index.css responded 304 in 76.3667 ms
+2026-06-04 22:13:49.025 +05:45 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 304 in 75.6664 ms
+2026-06-04 22:13:49.025 +05:45 [INF] HTTP GET /swagger/swagger-ui.css responded 304 in 76.3753 ms
+2026-06-04 22:13:49.184 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 10.1351 ms
+2026-06-04 22:14:21.248 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 3.6665 ms
+2026-06-04 22:14:21.651 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 392.6408 ms
+2026-06-04 22:14:21.786 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 0.3237 ms
+2026-06-04 22:14:21.786 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.4250 ms
+2026-06-04 22:14:21.786 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.3231 ms
+2026-06-04 22:14:21.982 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 189.4851 ms
+2026-06-04 22:14:21.983 +05:45 [INF] HTTP GET /api/reviews responded 200 in 192.0819 ms
+2026-06-04 22:14:22.118 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 329.2923 ms
+2026-06-04 22:17:01.395 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-04 22:17:02.449 +05:45 [INF] Database migrated and seeded successfully
+2026-06-04 22:17:02.454 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-06-04 22:17:02.591 +05:45 [INF] Now listening on: https://localhost:7178
+2026-06-04 22:17:02.592 +05:45 [INF] Now listening on: http://localhost:5214
+2026-06-04 22:17:02.701 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-04 22:17:02.706 +05:45 [INF] Hosting environment: Development
+2026-06-04 22:17:02.725 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-06-04 22:17:04.037 +05:45 [INF] HTTP GET /swagger responded 301 in 4.1269 ms
+2026-06-04 22:17:04.108 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 40.6662 ms
+2026-06-04 22:17:04.148 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 1.6052 ms
+2026-06-04 22:17:04.388 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 13.0471 ms
+2026-06-04 22:17:40.553 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 4.7246 ms
+2026-06-04 22:17:40.838 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 277.9948 ms
+2026-06-04 22:17:40.949 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 0.2188 ms
+2026-06-04 22:17:40.949 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.4755 ms
+2026-06-04 22:17:40.949 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.5214 ms
+2026-06-04 22:17:41.126 +05:45 [INF] HTTP GET /api/reviews responded 200 in 124.7488 ms
+2026-06-04 22:17:41.162 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 165.5097 ms
+2026-06-04 22:17:41.334 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 379.5458 ms
+2026-06-04 22:18:12.952 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-04 22:18:13.856 +05:45 [INF] Database migrated and seeded successfully
+2026-06-04 22:18:13.859 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-06-04 22:18:13.993 +05:45 [INF] Now listening on: https://localhost:7178
+2026-06-04 22:18:13.994 +05:45 [INF] Now listening on: http://localhost:5214
+2026-06-04 22:18:14.040 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-04 22:18:14.041 +05:45 [INF] Hosting environment: Development
+2026-06-04 22:18:14.041 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-06-04 22:18:15.290 +05:45 [INF] HTTP GET /swagger responded 301 in 4.7477 ms
+2026-06-04 22:18:15.374 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 39.6020 ms
+2026-06-04 22:18:15.418 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 1.1742 ms
+2026-06-04 22:18:15.590 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 10.4849 ms
+2026-06-04 22:19:00.471 +05:45 [INF] HTTP GET /api/blogs responded 200 in 371.7864 ms
+2026-06-04 22:19:00.499 +05:45 [INF] HTTP GET /uploads/ad02e4e2-067b-4e3e-afce-96b4eaa8b4f8.webp responded 304 in 9.3373 ms
+2026-06-04 22:19:00.499 +05:45 [INF] HTTP GET /uploads/1fc4a6be-6787-4a74-804b-18a52988d1af.png responded 304 in 9.3374 ms
+2026-06-04 22:19:46.503 +05:45 [INF] HTTP OPTIONS /api/contact responded 204 in 1.1622 ms
+2026-06-04 22:19:46.856 +05:45 [INF] HTTP POST /api/contact responded 200 in 345.0176 ms
+2026-06-04 22:19:50.889 +05:45 [ERR] Failed to send email to roodlesnepal@gmail.com
+MailKit.Security.AuthenticationException: 535: 5.7.8 Username and Password not accepted. For more information, go to
+5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c85deeb2bdesm5461687a12.0 - gsmtp
+ ---> MailKit.Net.Smtp.SmtpCommandException: 5.7.8 Username and Password not accepted. For more information, go to
+5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c85deeb2bdesm5461687a12.0 - gsmtp
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at AI.Solutions.Infrastructure.Services.EmailService.SendEmailAsync(String to, String subject, String body) in D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.Infrastructure\Services\EmailService.cs:line 53
+2026-06-04 22:20:00.719 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.1433 ms
+2026-06-04 22:20:00.920 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 195.4944 ms
+2026-06-04 22:20:01.044 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.1389 ms
+2026-06-04 22:20:01.044 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.0542 ms
+2026-06-04 22:20:01.045 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 0.1121 ms
+2026-06-04 22:20:01.166 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 117.9561 ms
+2026-06-04 22:20:01.169 +05:45 [INF] HTTP GET /api/reviews responded 200 in 119.7889 ms
+2026-06-04 22:20:01.259 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 207.9624 ms
+2026-06-04 22:20:16.020 +05:45 [INF] HTTP OPTIONS /api/contact/2005 responded 204 in 0.1342 ms
+2026-06-04 22:20:16.067 +05:45 [INF] HTTP DELETE /api/contact/2005 responded 200 in 39.4658 ms
+2026-06-04 22:20:16.074 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.0780 ms
+2026-06-04 22:20:16.080 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 3.7648 ms
+2026-06-04 22:20:16.184 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.1275 ms
+2026-06-04 22:20:16.193 +05:45 [INF] HTTP GET /api/reviews responded 200 in 5.7990 ms
+2026-06-04 22:20:23.794 +05:45 [INF] HTTP OPTIONS /api/reviews/approved responded 204 in 0.2087 ms
+2026-06-04 22:20:23.809 +05:45 [INF] HTTP GET /api/reviews/approved responded 200 in 11.6471 ms
+2026-06-04 22:20:35.590 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.1450 ms
+2026-06-04 22:20:35.640 +05:45 [INF] HTTP POST /api/reviews responded 200 in 42.1392 ms
+2026-06-04 22:20:39.853 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.0801 ms
+2026-06-04 22:20:39.854 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 0.1774 ms
+2026-06-04 22:20:39.871 +05:45 [INF] HTTP GET /api/reviews responded 200 in 17.3064 ms
+2026-06-04 22:20:39.872 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 12.2489 ms
+2026-06-04 22:20:39.909 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 45.2260 ms
+2026-06-04 22:20:42.971 +05:45 [INF] HTTP OPTIONS /api/users responded 204 in 0.1712 ms
+2026-06-04 22:20:42.999 +05:45 [INF] HTTP GET /api/users responded 200 in 22.0427 ms
+2026-06-04 22:20:53.205 +05:45 [INF] HTTP OPTIONS /api/reviews/1006 responded 204 in 0.1351 ms
+2026-06-04 22:20:53.266 +05:45 [INF] HTTP DELETE /api/reviews/1006 responded 200 in 54.3211 ms
+2026-06-04 22:20:53.274 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.1358 ms
+2026-06-04 22:20:53.281 +05:45 [INF] HTTP GET /api/reviews responded 200 in 2.3670 ms
+2026-06-04 22:20:54.488 +05:45 [INF] HTTP OPTIONS /api/blogs responded 204 in 0.0747 ms
+2026-06-04 22:20:54.513 +05:45 [INF] HTTP GET /api/blogs responded 200 in 20.9008 ms
+2026-06-04 22:20:54.888 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.0523 ms
+2026-06-04 22:20:54.892 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 2.2587 ms
+2026-06-04 22:21:08.324 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.0913 ms
+2026-06-04 22:21:08.331 +05:45 [INF] HTTP GET /api/reviews responded 200 in 3.9328 ms
+2026-06-04 22:21:09.933 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.0952 ms
+2026-06-04 22:21:09.940 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 3.3254 ms
+2026-06-04 22:21:18.100 +05:45 [INF] HTTP OPTIONS /api/users responded 204 in 0.0971 ms
+2026-06-04 22:21:18.191 +05:45 [INF] HTTP POST /api/users responded 400 in 15.5824 ms
+2026-06-04 22:21:23.740 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.0571 ms
+2026-06-04 22:21:23.746 +05:45 [INF] HTTP GET /api/reviews responded 200 in 4.1972 ms
+2026-06-04 22:21:24.980 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.0991 ms
+2026-06-04 22:21:24.992 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 4.0918 ms
+2026-06-04 22:21:31.815 +05:45 [INF] HTTP OPTIONS /api/users responded 204 in 0.1129 ms
+2026-06-04 22:21:31.919 +05:45 [INF] HTTP POST /api/users responded 201 in 98.1399 ms
+2026-06-04 22:21:31.927 +05:45 [INF] HTTP GET /api/users responded 200 in 4.1784 ms
+2026-06-04 22:21:38.769 +05:45 [INF] HTTP OPTIONS /api/reviews responded 204 in 0.1013 ms
+2026-06-04 22:21:38.802 +05:45 [INF] HTTP GET /api/reviews responded 200 in 28.9228 ms
+2026-06-04 22:21:39.167 +05:45 [INF] HTTP OPTIONS /api/users/1015 responded 204 in 0.0705 ms
+2026-06-04 22:21:39.250 +05:45 [INF] HTTP DELETE /api/users/1015 responded 200 in 75.2882 ms
+2026-06-04 22:21:39.261 +05:45 [INF] HTTP OPTIONS /api/users responded 204 in 0.1456 ms
+2026-06-04 22:21:39.273 +05:45 [INF] HTTP GET /api/users responded 200 in 7.2421 ms
+2026-06-04 22:21:40.027 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.0778 ms
+2026-06-04 22:21:43.029 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 2997.8468 ms
+2026-06-04 22:21:45.329 +05:45 [INF] HTTP OPTIONS /api/auth/logout responded 204 in 0.1281 ms
+2026-06-04 22:21:45.396 +05:45 [INF] HTTP POST /api/auth/logout responded 200 in 58.6641 ms

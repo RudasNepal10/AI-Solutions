@@ -1,0 +1,561 @@
+2026-05-14 10:02:10.193 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-14 10:02:19.002 +05:45 [INF] Database migrated and seeded successfully
+2026-05-14 10:02:19.027 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-05-14 10:02:19.440 +05:45 [INF] Now listening on: https://localhost:7178
+2026-05-14 10:02:19.456 +05:45 [INF] Now listening on: http://localhost:5214
+2026-05-14 10:02:19.540 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-14 10:02:19.554 +05:45 [INF] Hosting environment: Development
+2026-05-14 10:02:19.570 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-05-14 10:02:22.574 +05:45 [INF] HTTP GET /swagger responded 301 in 14.1227 ms
+2026-05-14 10:02:22.821 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 189.4956 ms
+2026-05-14 10:02:22.878 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 2.2249 ms
+2026-05-14 10:02:23.169 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 50.8355 ms
+2026-05-14 10:02:47.111 +05:45 [INF] HTTP POST /api/Contact responded 200 in 4412.9729 ms
+2026-05-14 10:02:51.421 +05:45 [ERR] Failed to send email to roodlesnepal@gmail.com
+MailKit.Security.AuthenticationException: 535: 5.7.8 Username and Password not accepted. For more information, go to
+5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2bd5cfe49a4sm8054915ad.38 - gsmtp
+ ---> MailKit.Net.Smtp.SmtpCommandException: 5.7.8 Username and Password not accepted. For more information, go to
+5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2bd5cfe49a4sm8054915ad.38 - gsmtp
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at AI.Solutions.Infrastructure.Services.EmailService.SendEmailAsync(String to, String subject, String body) in D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.Infrastructure\Services\EmailService.cs:line 47
+2026-05-14 10:19:12.339 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-14 10:19:13.647 +05:45 [INF] Database migrated and seeded successfully
+2026-05-14 10:19:13.670 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-05-14 10:19:14.208 +05:45 [INF] Now listening on: https://localhost:7178
+2026-05-14 10:19:14.212 +05:45 [INF] Now listening on: http://localhost:5214
+2026-05-14 10:19:14.561 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-14 10:19:14.567 +05:45 [INF] Hosting environment: Development
+2026-05-14 10:19:14.570 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-05-14 10:19:15.949 +05:45 [INF] HTTP GET /swagger responded 301 in 14.5985 ms
+2026-05-14 10:19:16.219 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 210.2382 ms
+2026-05-14 10:19:16.276 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 2.4832 ms
+2026-05-14 10:19:16.599 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 69.9925 ms
+2026-05-14 12:59:31.152 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-14 12:59:34.576 +05:45 [INF] Database migrated and seeded successfully
+2026-05-14 12:59:34.592 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-05-14 12:59:35.114 +05:45 [INF] Now listening on: https://localhost:7178
+2026-05-14 12:59:35.118 +05:45 [INF] Now listening on: http://localhost:5214
+2026-05-14 12:59:35.276 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-14 12:59:35.279 +05:45 [INF] Hosting environment: Development
+2026-05-14 12:59:35.281 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-05-14 12:59:37.045 +05:45 [INF] HTTP GET /swagger responded 301 in 10.0547 ms
+2026-05-14 12:59:37.191 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 90.0763 ms
+2026-05-14 12:59:37.329 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 1.4748 ms
+2026-05-14 12:59:37.543 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 27.4163 ms
+2026-05-14 13:00:03.653 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 2.0885 ms
+2026-05-14 13:00:06.827 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 3165.3721 ms
+2026-05-14 13:00:06.899 +05:45 [INF] HTTP OPTIONS /api/auth/me responded 204 in 0.5606 ms
+2026-05-14 13:00:06.900 +05:45 [INF] HTTP OPTIONS /api/dashboard/user/usage responded 204 in 0.0699 ms
+2026-05-14 13:00:06.918 +05:45 [INF] HTTP GET /api/dashboard/user/usage responded 404 in 8.5297 ms
+2026-05-14 13:00:06.918 +05:45 [INF] HTTP GET /api/auth/me responded 404 in 12.4600 ms
+2026-05-14 13:00:20.462 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.1293 ms
+2026-05-14 13:00:20.588 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 121.6366 ms
+2026-05-14 13:00:20.616 +05:45 [INF] HTTP OPTIONS /api/auth/me responded 204 in 0.1427 ms
+2026-05-14 13:00:20.617 +05:45 [INF] HTTP OPTIONS /api/dashboard/user/usage responded 204 in 0.0673 ms
+2026-05-14 13:00:20.621 +05:45 [INF] HTTP GET /api/auth/me responded 404 in 0.5435 ms
+2026-05-14 13:00:20.623 +05:45 [INF] HTTP GET /api/dashboard/user/usage responded 404 in 0.4167 ms
+2026-05-14 13:00:26.943 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.1896 ms
+2026-05-14 13:00:27.084 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 133.6009 ms
+2026-05-14 13:00:27.106 +05:45 [INF] HTTP OPTIONS /api/auth/me responded 204 in 0.0937 ms
+2026-05-14 13:00:27.106 +05:45 [INF] HTTP OPTIONS /api/dashboard/user/usage responded 204 in 0.0849 ms
+2026-05-14 13:00:27.110 +05:45 [INF] HTTP GET /api/auth/me responded 404 in 0.4725 ms
+2026-05-14 13:00:27.112 +05:45 [INF] HTTP GET /api/dashboard/user/usage responded 404 in 0.4142 ms
+2026-05-14 13:00:31.977 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 113.4578 ms
+2026-05-14 13:00:31.995 +05:45 [INF] HTTP GET /api/auth/me responded 404 in 0.5157 ms
+2026-05-14 13:00:31.996 +05:45 [INF] HTTP GET /api/dashboard/user/usage responded 404 in 0.2747 ms
+2026-05-14 13:00:37.044 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.0889 ms
+2026-05-14 13:00:37.121 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 71.2457 ms
+2026-05-14 13:00:37.138 +05:45 [INF] HTTP OPTIONS /api/auth/me responded 204 in 0.0718 ms
+2026-05-14 13:00:37.138 +05:45 [INF] HTTP OPTIONS /api/dashboard/user/usage responded 204 in 0.0385 ms
+2026-05-14 13:00:37.142 +05:45 [INF] HTTP GET /api/auth/me responded 404 in 0.4428 ms
+2026-05-14 13:00:37.144 +05:45 [INF] HTTP GET /api/dashboard/user/usage responded 404 in 0.3557 ms
+2026-05-14 13:00:37.955 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 60.1515 ms
+2026-05-14 13:00:37.972 +05:45 [INF] HTTP GET /api/auth/me responded 404 in 0.6220 ms
+2026-05-14 13:00:37.974 +05:45 [INF] HTTP GET /api/dashboard/user/usage responded 404 in 0.4534 ms
+2026-05-14 13:00:38.154 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 54.1555 ms
+2026-05-14 13:00:38.170 +05:45 [INF] HTTP GET /api/auth/me responded 404 in 0.4300 ms
+2026-05-14 13:00:38.171 +05:45 [INF] HTTP GET /api/dashboard/user/usage responded 404 in 0.2441 ms
+2026-05-14 13:00:38.373 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 78.7660 ms
+2026-05-14 13:00:38.392 +05:45 [INF] HTTP GET /api/auth/me responded 404 in 0.4572 ms
+2026-05-14 13:00:38.394 +05:45 [INF] HTTP GET /api/dashboard/user/usage responded 404 in 0.4347 ms
+2026-05-14 13:00:44.567 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.1463 ms
+2026-05-14 13:00:44.670 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 95.7874 ms
+2026-05-14 13:00:44.689 +05:45 [INF] HTTP OPTIONS /api/auth/me responded 204 in 0.0637 ms
+2026-05-14 13:00:44.692 +05:45 [INF] HTTP OPTIONS /api/dashboard/user/usage responded 204 in 0.1515 ms
+2026-05-14 13:00:44.695 +05:45 [INF] HTTP GET /api/auth/me responded 404 in 0.5690 ms
+2026-05-14 13:00:44.697 +05:45 [INF] HTTP GET /api/dashboard/user/usage responded 404 in 0.4626 ms
+2026-05-14 13:00:51.669 +05:45 [INF] HTTP GET /api/dashboard/user/usage responded 404 in 0.2706 ms
+2026-05-14 13:01:19.689 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.1275 ms
+2026-05-14 13:01:19.998 +05:45 [INF] HTTP POST /api/auth/login responded 401 in 245.6105 ms
+2026-05-14 13:01:20.008 +05:45 [INF] HTTP OPTIONS /api/auth/refresh responded 204 in 0.0625 ms
+2026-05-14 13:01:20.027 +05:45 [INF] HTTP POST /api/auth/refresh responded 404 in 0.1616 ms
+2026-05-14 13:02:18.593 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.0935 ms
+2026-05-14 13:02:18.720 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 101.5519 ms
+2026-05-14 13:02:18.811 +05:45 [INF] HTTP OPTIONS /api/auth/me responded 204 in 0.0473 ms
+2026-05-14 13:02:18.811 +05:45 [INF] HTTP OPTIONS /api/dashboard/user/usage responded 204 in 0.0377 ms
+2026-05-14 13:02:18.817 +05:45 [INF] HTTP GET /api/auth/me responded 404 in 0.4800 ms
+2026-05-14 13:02:18.818 +05:45 [INF] HTTP GET /api/dashboard/user/usage responded 404 in 0.2341 ms
+2026-05-14 13:03:17.974 +05:45 [INF] HTTP OPTIONS /api/auth/register responded 204 in 0.0635 ms
+2026-05-14 13:03:18.375 +05:45 [INF] HTTP POST /api/auth/register responded 200 in 379.6069 ms
+2026-05-14 13:03:18.411 +05:45 [INF] HTTP OPTIONS /api/auth/me responded 204 in 0.0563 ms
+2026-05-14 13:03:18.411 +05:45 [INF] HTTP OPTIONS /api/dashboard/user/usage responded 204 in 0.0403 ms
+2026-05-14 13:03:18.413 +05:45 [INF] HTTP GET /api/auth/me responded 404 in 0.2688 ms
+2026-05-14 13:03:18.414 +05:45 [INF] HTTP GET /api/dashboard/user/usage responded 404 in 0.1696 ms
+2026-05-14 13:03:31.628 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.2911 ms
+2026-05-14 13:03:31.694 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 58.7656 ms
+2026-05-14 13:03:31.718 +05:45 [INF] HTTP OPTIONS /api/auth/me responded 204 in 0.0568 ms
+2026-05-14 13:03:31.718 +05:45 [INF] HTTP OPTIONS /api/dashboard/user/usage responded 204 in 0.0490 ms
+2026-05-14 13:03:31.721 +05:45 [INF] HTTP GET /api/auth/me responded 404 in 0.2739 ms
+2026-05-14 13:03:31.723 +05:45 [INF] HTTP GET /api/dashboard/user/usage responded 404 in 0.2234 ms
+2026-05-14 13:03:38.603 +05:45 [INF] HTTP GET /api/dashboard/user/usage responded 404 in 0.1322 ms
+2026-05-14 14:58:10.663 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-14 14:58:11.994 +05:45 [INF] Database migrated and seeded successfully
+2026-05-14 14:58:11.998 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-05-14 14:58:12.234 +05:45 [INF] Now listening on: https://localhost:7178
+2026-05-14 14:58:12.242 +05:45 [INF] Now listening on: http://localhost:5214
+2026-05-14 14:58:12.301 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-14 14:58:12.315 +05:45 [INF] Hosting environment: Development
+2026-05-14 14:58:12.316 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-05-14 14:58:13.683 +05:45 [INF] HTTP GET /swagger responded 301 in 3.5364 ms
+2026-05-14 14:58:13.756 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 39.8921 ms
+2026-05-14 14:58:13.785 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 0.7154 ms
+2026-05-14 14:58:13.880 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 10.2609 ms
+2026-05-14 14:59:17.715 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 5.7338 ms
+2026-05-14 14:59:20.879 +05:45 [INF] HTTP POST /api/auth/login responded 401 in 3151.8170 ms
+2026-05-14 15:03:00.451 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 1.1445 ms
+2026-05-14 15:03:00.875 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 412.7196 ms
+2026-05-14 15:03:07.389 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.1315 ms
+2026-05-14 15:03:07.586 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 190.7553 ms
+2026-05-14 15:03:11.018 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 75.9779 ms
+2026-05-14 15:04:47.150 +05:45 [INF] HTTP GET /api/blogs responded 200 in 148.8202 ms
+2026-05-14 15:04:51.951 +05:45 [INF] HTTP GET /api/blogs/how-ai-is-transforming-business-analytics-2026 responded 200 in 173.1028 ms
+2026-05-14 15:04:52.976 +05:45 [INF] HTTP GET /api/blogs/how-ai-is-transforming-business-analytics-2026 responded 200 in 2.7085 ms
+2026-05-14 15:06:12.053 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.1899 ms
+2026-05-14 15:06:12.241 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 166.1853 ms
+2026-05-14 17:01:17.179 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-14 17:01:36.198 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-14 17:02:32.614 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-14 17:09:53.061 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-14 17:09:58.653 +05:45 [INF] Database migrated and seeded successfully
+2026-05-14 17:09:58.663 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-05-14 17:09:58.856 +05:45 [INF] Now listening on: https://localhost:7178
+2026-05-14 17:09:58.858 +05:45 [INF] Now listening on: http://localhost:5214
+2026-05-14 17:09:58.910 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-14 17:09:58.911 +05:45 [INF] Hosting environment: Development
+2026-05-14 17:09:58.911 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-05-14 17:10:00.288 +05:45 [INF] HTTP GET /swagger responded 301 in 4.3917 ms
+2026-05-14 17:10:00.366 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 55.1964 ms
+2026-05-14 17:10:00.427 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 36.5440 ms
+2026-05-14 17:10:00.542 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 8.9270 ms
+2026-05-14 17:24:02.093 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 14.2077 ms
+2026-05-14 17:24:02.115 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 3.5244 ms
+2026-05-14 17:29:03.650 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-14 17:29:04.681 +05:45 [INF] Database migrated and seeded successfully
+2026-05-14 17:29:04.684 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-05-14 17:29:04.724 +05:45 [INF] Now listening on: http://localhost:5214
+2026-05-14 17:29:04.726 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-14 17:29:04.726 +05:45 [INF] Hosting environment: Development
+2026-05-14 17:29:04.726 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-05-14 17:36:07.847 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-14 17:36:08.677 +05:45 [INF] Database migrated and seeded successfully
+2026-05-14 17:36:08.682 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-05-14 17:36:08.907 +05:45 [INF] Now listening on: https://localhost:7178
+2026-05-14 17:36:08.909 +05:45 [INF] Now listening on: http://localhost:5214
+2026-05-14 17:36:08.966 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-14 17:36:08.967 +05:45 [INF] Hosting environment: Development
+2026-05-14 17:36:08.968 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-05-14 17:36:10.108 +05:45 [INF] HTTP GET /swagger responded 301 in 5.4409 ms
+2026-05-14 17:36:10.180 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 44.6009 ms
+2026-05-14 17:36:10.206 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 1.5471 ms
+2026-05-14 17:36:10.344 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 8.5533 ms
+2026-05-14 17:37:02.832 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 2.3849 ms
+2026-05-14 17:37:03.251 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 413.9803 ms
+2026-05-14 17:37:08.712 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.4314 ms
+2026-05-14 17:37:08.903 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 186.8690 ms
+2026-05-14 17:38:13.047 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.0882 ms
+2026-05-14 17:38:13.206 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 153.9607 ms
+2026-05-14 17:50:30.636 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-14 17:50:31.677 +05:45 [INF] Database migrated and seeded successfully
+2026-05-14 17:50:31.680 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-05-14 17:50:31.832 +05:45 [INF] Now listening on: https://localhost:7178
+2026-05-14 17:50:31.834 +05:45 [INF] Now listening on: http://localhost:5214
+2026-05-14 17:50:31.892 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-14 17:50:31.921 +05:45 [INF] Hosting environment: Development
+2026-05-14 17:50:31.921 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-05-14 17:50:33.280 +05:45 [INF] HTTP GET /swagger responded 301 in 5.6060 ms
+2026-05-14 17:50:33.356 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 42.6388 ms
+2026-05-14 17:50:33.385 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 0.9763 ms
+2026-05-14 17:50:33.538 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 13.3103 ms
+2026-05-14 17:51:22.754 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 2.7675 ms
+2026-05-14 17:51:23.181 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 415.0551 ms
+2026-05-14 17:51:30.553 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.6732 ms
+2026-05-14 17:51:30.726 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 165.4332 ms
+2026-05-14 18:09:17.143 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-14 18:09:18.190 +05:45 [INF] Database migrated and seeded successfully
+2026-05-14 18:09:18.194 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-05-14 18:09:18.357 +05:45 [INF] Now listening on: https://localhost:7178
+2026-05-14 18:09:18.362 +05:45 [INF] Now listening on: http://localhost:5214
+2026-05-14 18:09:18.413 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-14 18:09:18.414 +05:45 [INF] Hosting environment: Development
+2026-05-14 18:09:18.415 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-05-14 18:09:19.553 +05:45 [INF] HTTP GET /swagger responded 301 in 4.2020 ms
+2026-05-14 18:09:19.642 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 53.8292 ms
+2026-05-14 18:09:19.676 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 1.0310 ms
+2026-05-14 18:09:19.772 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 10.3875 ms
+2026-05-14 18:11:38.760 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 4.6245 ms
+2026-05-14 18:11:39.200 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 430.6333 ms
+2026-05-14 18:11:47.731 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.6826 ms
+2026-05-14 18:11:47.868 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 129.5040 ms
+2026-05-14 18:12:52.462 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.1017 ms
+2026-05-14 18:12:52.617 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 149.1456 ms
+2026-05-14 18:13:55.834 +05:45 [INF] HTTP GET /api/blogs responded 200 in 124.0177 ms
+2026-05-14 18:13:59.802 +05:45 [INF] HTTP GET /api/blogs/how-ai-is-transforming-business-analytics-2026 responded 200 in 117.8225 ms
+2026-05-14 18:14:00.817 +05:45 [INF] HTTP GET /api/blogs/how-ai-is-transforming-business-analytics-2026 responded 200 in 5.0589 ms
+2026-05-14 18:16:56.308 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.2491 ms
+2026-05-14 18:16:56.421 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 104.4433 ms
+2026-05-14 18:17:00.124 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.1165 ms
+2026-05-14 18:17:00.305 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 173.3777 ms
+2026-05-14 18:17:10.322 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.1108 ms
+2026-05-14 18:17:10.393 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 64.4422 ms
+2026-05-14 18:17:19.815 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.1062 ms
+2026-05-14 18:17:19.887 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 64.5077 ms
+2026-05-14 18:18:00.388 +05:45 [INF] HTTP OPTIONS /api/chat responded 204 in 0.3899 ms
+2026-05-14 18:18:01.329 +05:45 [ERR] HTTP POST /api/chat responded 500 in 936.0425 ms
+2026-05-14 18:18:07.027 +05:45 [INF] HTTP OPTIONS /api/chat responded 204 in 0.1577 ms
+2026-05-14 18:18:07.773 +05:45 [ERR] HTTP POST /api/chat responded 500 in 743.0499 ms
+2026-05-14 18:20:37.774 +05:45 [INF] HTTP OPTIONS /api/blogs responded 204 in 0.1139 ms
+2026-05-14 18:20:37.807 +05:45 [INF] HTTP GET /api/blogs responded 200 in 28.5696 ms
+2026-05-14 18:28:16.037 +05:45 [INF] HTTP OPTIONS /api/chat responded 204 in 0.3713 ms
+2026-05-14 18:28:16.947 +05:45 [ERR] HTTP POST /api/chat responded 500 in 897.8260 ms
+2026-05-14 18:58:38.554 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-14 18:58:39.780 +05:45 [INF] Database migrated and seeded successfully
+2026-05-14 18:58:39.785 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-05-14 18:58:39.971 +05:45 [INF] Now listening on: https://localhost:7178
+2026-05-14 18:58:39.973 +05:45 [INF] Now listening on: http://localhost:5214
+2026-05-14 18:58:40.045 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-14 18:58:40.047 +05:45 [INF] Hosting environment: Development
+2026-05-14 18:58:40.048 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-05-14 18:58:40.961 +05:45 [INF] HTTP GET /swagger responded 301 in 5.4911 ms
+2026-05-14 18:58:41.060 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 61.1310 ms
+2026-05-14 18:58:41.101 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 1.1116 ms
+2026-05-14 18:58:41.241 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 10.3485 ms
+2026-05-14 18:59:51.255 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 3.2202 ms
+2026-05-14 18:59:51.702 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 433.6710 ms
+2026-05-14 18:59:56.105 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 112.5281 ms
+2026-05-14 18:59:57.015 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.2130 ms
+2026-05-14 18:59:57.129 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 105.0485 ms
+2026-05-14 18:59:57.323 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 95.6794 ms
+2026-05-14 18:59:57.468 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 65.1219 ms
+2026-05-14 18:59:57.668 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 70.3875 ms
+2026-05-14 18:59:57.858 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 70.2349 ms
+2026-05-14 18:59:58.086 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 103.1421 ms
+2026-05-14 18:59:58.233 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 62.6203 ms
+2026-05-14 18:59:58.467 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 108.9361 ms
+2026-05-14 18:59:58.674 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 131.9125 ms
+2026-05-14 18:59:58.798 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 67.4200 ms
+2026-05-14 18:59:59.056 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 123.2684 ms
+2026-05-14 18:59:59.235 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 88.2476 ms
+2026-05-14 18:59:59.421 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 80.1926 ms
+2026-05-14 18:59:59.613 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 50.8665 ms
+2026-05-14 18:59:59.858 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 80.4449 ms
+2026-05-14 19:00:00.060 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 64.0609 ms
+2026-05-14 19:00:00.291 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 87.2471 ms
+2026-05-14 19:00:00.461 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 68.6340 ms
+2026-05-14 19:01:04.117 +05:45 [INF] HTTP OPTIONS /api/chat responded 204 in 0.1662 ms
+2026-05-14 19:01:05.015 +05:45 [INF] HTTP POST /api/chat responded 200 in 886.5884 ms
+2026-05-14 19:01:26.212 +05:45 [INF] HTTP OPTIONS /api/chat responded 204 in 0.0995 ms
+2026-05-14 19:01:26.971 +05:45 [INF] HTTP POST /api/chat responded 200 in 751.1682 ms
+2026-05-14 19:33:40.220 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-14 19:33:41.229 +05:45 [INF] Database migrated and seeded successfully
+2026-05-14 19:33:41.233 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-05-14 19:33:41.360 +05:45 [INF] Now listening on: https://localhost:7178
+2026-05-14 19:33:41.362 +05:45 [INF] Now listening on: http://localhost:5214
+2026-05-14 19:33:41.417 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-14 19:33:41.418 +05:45 [INF] Hosting environment: Development
+2026-05-14 19:33:41.419 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-05-14 19:33:42.373 +05:45 [INF] HTTP GET /swagger responded 301 in 3.7201 ms
+2026-05-14 19:33:42.454 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 44.4340 ms
+2026-05-14 19:33:42.492 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 0.8329 ms
+2026-05-14 19:33:42.592 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 9.9980 ms
+2026-05-14 19:34:09.780 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 4.7179 ms
+2026-05-14 19:34:10.257 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 464.4764 ms
+2026-05-14 19:43:10.396 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 59.0108 ms
+2026-05-14 19:43:10.556 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 145.1548 ms
+2026-05-14 19:43:17.379 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.1899 ms
+2026-05-14 19:43:17.568 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 181.5633 ms
+2026-05-14 20:03:43.886 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-14 20:03:44.868 +05:45 [INF] Database migrated and seeded successfully
+2026-05-14 20:03:44.872 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-05-14 20:03:45.100 +05:45 [INF] Now listening on: https://localhost:7178
+2026-05-14 20:03:45.101 +05:45 [INF] Now listening on: http://localhost:5214
+2026-05-14 20:03:45.166 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-14 20:03:45.194 +05:45 [INF] Hosting environment: Development
+2026-05-14 20:03:45.197 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-05-14 20:03:46.096 +05:45 [INF] HTTP GET /swagger responded 301 in 7.1331 ms
+2026-05-14 20:03:46.188 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 56.6165 ms
+2026-05-14 20:03:46.221 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 1.2054 ms
+2026-05-14 20:03:46.384 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 10.8477 ms
+2026-05-14 20:04:24.403 +05:45 [INF] HTTP POST /api/Auth/login responded 200 in 377.4504 ms
+2026-05-14 20:04:35.461 +05:45 [INF] HTTP POST /api/Auth/refresh-token responded 401 in 135.0649 ms
+2026-05-14 20:05:11.448 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-14 20:05:12.495 +05:45 [INF] Database migrated and seeded successfully
+2026-05-14 20:05:12.498 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-05-14 20:05:12.656 +05:45 [INF] Now listening on: https://localhost:7178
+2026-05-14 20:05:12.658 +05:45 [INF] Now listening on: http://localhost:5214
+2026-05-14 20:05:12.718 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-14 20:05:12.718 +05:45 [INF] Hosting environment: Development
+2026-05-14 20:05:12.719 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-05-14 20:05:13.712 +05:45 [INF] HTTP GET /swagger responded 301 in 4.1955 ms
+2026-05-14 20:05:13.782 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 47.8717 ms
+2026-05-14 20:05:13.813 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 0.7567 ms
+2026-05-14 20:05:13.976 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 9.4603 ms
+2026-05-14 20:06:26.484 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 3.7960 ms
+2026-05-14 20:06:26.845 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 353.3479 ms
+2026-05-14 20:06:31.502 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 133.3799 ms
+2026-05-14 20:07:36.873 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.1281 ms
+2026-05-14 20:07:37.046 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 169.0044 ms
+2026-05-14 20:09:14.136 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.1263 ms
+2026-05-14 20:09:14.240 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 95.6288 ms
+2026-05-14 20:18:56.742 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-14 20:18:57.664 +05:45 [INF] Database migrated and seeded successfully
+2026-05-14 20:18:57.667 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-05-14 20:18:57.768 +05:45 [INF] Now listening on: https://localhost:7178
+2026-05-14 20:18:57.770 +05:45 [INF] Now listening on: http://localhost:5214
+2026-05-14 20:18:57.826 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-14 20:18:57.828 +05:45 [INF] Hosting environment: Development
+2026-05-14 20:18:57.829 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-05-14 20:18:58.940 +05:45 [INF] HTTP GET /swagger responded 301 in 3.8042 ms
+2026-05-14 20:18:59.049 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 42.3880 ms
+2026-05-14 20:18:59.077 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 0.9255 ms
+2026-05-14 20:18:59.238 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 10.1801 ms
+2026-05-14 20:19:19.776 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 3.5485 ms
+2026-05-14 20:19:20.192 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 403.7319 ms
+2026-05-14 20:33:07.906 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-14 20:33:09.058 +05:45 [INF] Database migrated and seeded successfully
+2026-05-14 20:33:09.064 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-05-14 20:33:09.427 +05:45 [INF] Now listening on: https://localhost:7178
+2026-05-14 20:33:09.430 +05:45 [INF] Now listening on: http://localhost:5214
+2026-05-14 20:33:09.528 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-14 20:33:09.529 +05:45 [INF] Hosting environment: Development
+2026-05-14 20:33:09.531 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-05-14 20:33:10.669 +05:45 [INF] HTTP GET /swagger responded 301 in 6.1599 ms
+2026-05-14 20:33:10.751 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 50.8286 ms
+2026-05-14 20:33:10.780 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 1.1399 ms
+2026-05-14 20:33:10.945 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 19.0234 ms
+2026-05-14 20:57:33.018 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-14 20:57:34.711 +05:45 [INF] Database migrated and seeded successfully
+2026-05-14 20:57:34.718 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-05-14 20:57:34.878 +05:45 [INF] Now listening on: https://localhost:7178
+2026-05-14 20:57:34.881 +05:45 [INF] Now listening on: http://localhost:5214
+2026-05-14 20:57:34.963 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-14 20:57:34.965 +05:45 [INF] Hosting environment: Development
+2026-05-14 20:57:34.967 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-05-14 20:57:36.246 +05:45 [INF] HTTP GET /swagger responded 301 in 6.4265 ms
+2026-05-14 20:57:36.329 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 55.8347 ms
+2026-05-14 20:57:36.400 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 41.3342 ms
+2026-05-14 20:57:36.538 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 14.6823 ms
+2026-05-14 20:57:43.097 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 3.5481 ms
+2026-05-14 20:57:43.664 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 555.5805 ms
+2026-05-14 20:58:11.676 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.3341 ms
+2026-05-14 20:58:11.878 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 196.0644 ms
+2026-05-14 21:05:42.523 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.2476 ms
+2026-05-14 21:05:42.701 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 170.2788 ms
+2026-05-14 21:06:52.436 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.1699 ms
+2026-05-14 21:06:52.525 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 82.7578 ms
+2026-05-14 21:07:18.797 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.1352 ms
+2026-05-14 21:07:18.874 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 72.5457 ms
+2026-05-14 21:09:18.046 +05:45 [INF] HTTP OPTIONS /api/blogs responded 204 in 0.0920 ms
+2026-05-14 21:09:18.178 +05:45 [INF] HTTP GET /api/blogs responded 200 in 127.3128 ms
+2026-05-14 21:09:42.711 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.1011 ms
+2026-05-14 21:09:42.826 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 110.3294 ms
+2026-05-14 21:13:01.553 +05:45 [INF] HTTP OPTIONS /api/blogs responded 204 in 0.1897 ms
+2026-05-14 21:13:01.601 +05:45 [INF] HTTP GET /api/blogs responded 200 in 40.9113 ms
+2026-05-14 21:22:36.009 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.2815 ms
+2026-05-14 21:22:36.211 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 187.7412 ms
+2026-05-14 21:41:54.156 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 30.3844 ms
+2026-05-14 21:41:54.252 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 80.2730 ms
+2026-05-14 21:42:06.297 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.1000 ms
+2026-05-14 21:42:06.383 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 80.8166 ms
+2026-05-14 21:42:12.405 +05:45 [INF] HTTP OPTIONS /api/blogs responded 204 in 0.1796 ms
+2026-05-14 21:42:12.448 +05:45 [INF] HTTP GET /api/blogs responded 200 in 39.5620 ms
+2026-05-14 21:42:16.274 +05:45 [INF] HTTP OPTIONS /api/blogs/2 responded 204 in 0.1450 ms
+2026-05-14 21:42:16.357 +05:45 [INF] HTTP DELETE /api/blogs/2 responded 200 in 77.4199 ms
+2026-05-14 21:42:16.380 +05:45 [INF] HTTP GET /api/blogs responded 200 in 6.0313 ms
+2026-05-14 21:42:25.049 +05:45 [INF] HTTP OPTIONS /api/blogs/getting-started-with-ai-solutions-platform responded 204 in 0.1469 ms
+2026-05-14 21:42:25.204 +05:45 [INF] HTTP GET /api/blogs/getting-started-with-ai-solutions-platform responded 200 in 149.6253 ms
+2026-05-14 21:42:26.239 +05:45 [INF] HTTP GET /api/blogs/getting-started-with-ai-solutions-platform responded 200 in 10.8909 ms
+2026-05-14 21:43:19.178 +05:45 [INF] HTTP OPTIONS /api/blogs responded 204 in 0.1470 ms
+2026-05-14 21:43:19.218 +05:45 [INF] HTTP GET /api/blogs responded 200 in 34.9350 ms
+2026-05-14 21:43:19.701 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.2568 ms
+2026-05-14 21:43:19.716 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 9.5388 ms
+2026-05-14 21:43:20.247 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 0.0506 ms
+2026-05-14 21:43:20.252 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 0.6267 ms
+2026-05-14 21:44:29.716 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 0.0852 ms
+2026-05-14 21:44:29.727 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 0.9700 ms
+2026-05-14 21:45:18.681 +05:45 [INF] HTTP OPTIONS /api/blogs responded 204 in 0.3271 ms
+2026-05-14 21:45:18.717 +05:45 [INF] HTTP GET /api/blogs responded 200 in 32.4007 ms
+2026-05-14 21:45:19.104 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.0595 ms
+2026-05-14 21:45:19.123 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 14.6767 ms
+2026-05-14 21:45:24.733 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.0538 ms
+2026-05-14 21:45:24.741 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 3.0395 ms
+2026-05-14 21:45:33.796 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 0.0599 ms
+2026-05-14 21:45:33.801 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 0.5770 ms
+2026-05-14 21:45:40.944 +05:45 [INF] HTTP OPTIONS /api/auth/logout responded 204 in 0.0547 ms
+2026-05-14 21:45:41.244 +05:45 [INF] HTTP POST /api/auth/logout responded 200 in 294.8929 ms
+2026-05-14 21:45:51.690 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.0625 ms
+2026-05-14 21:45:51.811 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 114.8935 ms
+2026-05-14 21:45:52.000 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 0.1114 ms
+2026-05-14 21:45:52.006 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 1.0791 ms
+2026-05-14 21:46:52.032 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 0.2510 ms
+2026-05-14 21:46:52.082 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 0.9470 ms
+2026-05-14 21:47:33.321 +05:45 [INF] HTTP OPTIONS /api/blogs responded 204 in 0.0565 ms
+2026-05-14 21:47:33.353 +05:45 [INF] HTTP GET /api/blogs responded 200 in 28.7651 ms
+2026-05-14 21:47:43.393 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.1670 ms
+2026-05-14 21:47:43.402 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 5.9143 ms
+2026-05-14 21:48:44.545 +05:45 [INF] HTTP OPTIONS /api/auth/logout responded 204 in 0.0736 ms
+2026-05-14 21:48:44.595 +05:45 [INF] HTTP POST /api/auth/logout responded 200 in 43.5338 ms
+2026-05-14 21:48:51.932 +05:45 [INF] HTTP GET /api/blogs responded 200 in 27.5623 ms
+2026-05-14 21:49:51.191 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.0526 ms
+2026-05-14 21:49:51.333 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 137.1803 ms
+2026-05-14 21:49:51.537 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 0.1372 ms
+2026-05-14 21:49:51.541 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 0.3862 ms
+2026-05-14 21:50:00.432 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.0367 ms
+2026-05-14 21:50:00.456 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 18.9032 ms
+2026-05-14 21:50:02.633 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 0.0340 ms
+2026-05-14 21:50:02.637 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 0.9586 ms
+2026-05-14 21:50:37.470 +05:45 [INF] HTTP OPTIONS /api/blogs responded 204 in 0.0567 ms
+2026-05-14 21:50:37.496 +05:45 [INF] HTTP GET /api/blogs responded 200 in 22.8334 ms
+2026-05-14 21:51:04.341 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.1483 ms
+2026-05-14 21:51:04.370 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 17.2402 ms
+2026-05-14 21:52:23.032 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 0.0445 ms
+2026-05-14 21:52:23.036 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 0.6554 ms
+2026-05-14 21:52:31.288 +05:45 [INF] HTTP OPTIONS /api/auth/logout responded 204 in 0.0399 ms
+2026-05-14 21:52:31.332 +05:45 [INF] HTTP POST /api/auth/logout responded 200 in 38.3575 ms
+2026-05-14 21:52:37.401 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.0428 ms
+2026-05-14 21:52:37.501 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 95.6660 ms
+2026-05-14 21:52:37.684 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 0.0341 ms
+2026-05-14 21:52:37.689 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 0.2888 ms
+2026-05-14 21:52:40.839 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.0404 ms
+2026-05-14 21:52:40.850 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 7.9618 ms
+2026-05-14 21:52:43.035 +05:45 [INF] HTTP OPTIONS /api/blogs responded 204 in 0.0358 ms
+2026-05-14 21:52:43.059 +05:45 [INF] HTTP GET /api/blogs responded 200 in 19.5408 ms
+2026-05-14 21:54:52.695 +05:45 [INF] HTTP OPTIONS /api/auth/logout responded 204 in 0.0678 ms
+2026-05-14 21:54:52.738 +05:45 [INF] HTTP POST /api/auth/logout responded 200 in 36.9349 ms
+2026-05-14 22:00:28.799 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-14 22:00:29.850 +05:45 [INF] Database migrated and seeded successfully
+2026-05-14 22:00:29.855 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-05-14 22:00:29.973 +05:45 [INF] Now listening on: https://localhost:7178
+2026-05-14 22:00:29.974 +05:45 [INF] Now listening on: http://localhost:5214
+2026-05-14 22:00:30.027 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-14 22:00:30.033 +05:45 [INF] Hosting environment: Development
+2026-05-14 22:00:30.057 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-05-14 22:00:31.095 +05:45 [INF] HTTP GET /swagger responded 301 in 6.2174 ms
+2026-05-14 22:00:31.161 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 39.7037 ms
+2026-05-14 22:00:31.194 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 4.7647 ms
+2026-05-14 22:00:31.336 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 8.5663 ms
+2026-05-14 22:17:38.450 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-14 22:17:39.697 +05:45 [INF] Database migrated and seeded successfully
+2026-05-14 22:17:39.707 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-05-14 22:17:39.881 +05:45 [INF] Now listening on: https://localhost:7178
+2026-05-14 22:17:39.883 +05:45 [INF] Now listening on: http://localhost:5214
+2026-05-14 22:17:39.938 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-14 22:17:39.939 +05:45 [INF] Hosting environment: Development
+2026-05-14 22:17:39.940 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-05-14 22:17:40.908 +05:45 [INF] HTTP GET /swagger responded 301 in 4.0636 ms
+2026-05-14 22:17:40.994 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 66.6465 ms
+2026-05-14 22:17:41.035 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 4.4739 ms
+2026-05-14 22:17:41.125 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 15.7989 ms
+2026-05-14 22:19:43.188 +05:45 [INF] HTTP OPTIONS /api/contact responded 204 in 3.2864 ms
+2026-05-14 22:19:43.679 +05:45 [INF] HTTP POST /api/contact responded 200 in 482.7774 ms
+2026-05-14 22:19:47.332 +05:45 [ERR] Failed to send email to roodlesnepal@gmail.com
+MailKit.Security.AuthenticationException: 535: 5.7.8 Username and Password not accepted. For more information, go to
+5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c82bb07ab47sm2949846a12.8 - gsmtp
+ ---> MailKit.Net.Smtp.SmtpCommandException: 5.7.8 Username and Password not accepted. For more information, go to
+5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c82bb07ab47sm2949846a12.8 - gsmtp
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at AI.Solutions.Infrastructure.Services.EmailService.SendEmailAsync(String to, String subject, String body)
+2026-05-14 22:19:51.698 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.5197 ms
+2026-05-14 22:19:51.914 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 212.9966 ms
+2026-05-14 22:19:52.358 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 0.0882 ms
+2026-05-14 22:19:52.418 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 55.0913 ms
+2026-05-14 22:20:00.792 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.0983 ms
+2026-05-14 22:20:00.830 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 36.0248 ms
+2026-05-14 22:20:09.573 +05:45 [INF] HTTP OPTIONS /api/contact/1 responded 204 in 0.1042 ms
+2026-05-14 22:20:09.648 +05:45 [INF] HTTP DELETE /api/contact/1 responded 200 in 67.9704 ms
+2026-05-14 22:20:09.655 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.0957 ms
+2026-05-14 22:20:09.664 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 4.7943 ms
+2026-05-14 22:20:12.900 +05:45 [INF] HTTP OPTIONS /api/blogs responded 204 in 0.0844 ms
+2026-05-14 22:20:12.990 +05:45 [INF] HTTP GET /api/blogs responded 200 in 84.5743 ms
+2026-05-14 22:21:03.675 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 0.1869 ms
+2026-05-14 22:21:03.679 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 1.0011 ms
+2026-05-14 22:21:04.919 +05:45 [INF] HTTP OPTIONS /api/blogs responded 204 in 0.2170 ms
+2026-05-14 22:21:04.954 +05:45 [INF] HTTP GET /api/blogs responded 200 in 32.0338 ms
+2026-05-14 22:22:24.010 +05:45 [INF] HTTP OPTIONS /api/blogs/getting-started-with-ai-solutions-platform responded 204 in 0.0920 ms
+2026-05-14 22:22:24.180 +05:45 [INF] HTTP GET /api/blogs/getting-started-with-ai-solutions-platform responded 200 in 164.8775 ms
+2026-05-14 22:22:40.028 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.0908 ms
+2026-05-14 22:22:40.038 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 8.1732 ms
+2026-05-14 22:22:40.870 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 0.1400 ms
+2026-05-14 22:22:40.876 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 0.7543 ms
+2026-05-14 22:22:55.012 +05:45 [INF] HTTP OPTIONS /api/auth/logout responded 204 in 0.1467 ms
+2026-05-14 22:22:55.122 +05:45 [INF] HTTP POST /api/auth/logout responded 200 in 102.1446 ms
+2026-05-14 22:40:44.012 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-14 22:40:49.049 +05:45 [INF] Database migrated and seeded successfully
+2026-05-14 22:40:49.065 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-05-14 22:40:49.531 +05:45 [INF] Now listening on: https://localhost:7178
+2026-05-14 22:40:49.537 +05:45 [INF] Now listening on: http://localhost:5214
+2026-05-14 22:40:49.708 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-14 22:40:49.715 +05:45 [INF] Hosting environment: Development
+2026-05-14 22:40:49.721 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-05-14 22:40:51.529 +05:45 [INF] HTTP GET /swagger responded 301 in 15.9637 ms
+2026-05-14 22:40:51.737 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 151.9806 ms
+2026-05-14 22:40:51.774 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 2.8094 ms
+2026-05-14 22:40:52.043 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 39.9482 ms
+2026-05-14 22:42:32.717 +05:45 [INF] HTTP OPTIONS /api/auth/login responded 204 in 29.6017 ms
+2026-05-14 22:42:37.489 +05:45 [INF] HTTP POST /api/auth/login responded 200 in 4737.9261 ms
+2026-05-14 22:42:39.026 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 0.7193 ms
+2026-05-14 22:42:39.274 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 243.9348 ms
+2026-05-14 22:42:43.855 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.5174 ms
+2026-05-14 22:42:44.157 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 277.1932 ms
+2026-05-14 22:42:46.745 +05:45 [INF] HTTP OPTIONS /api/blogs responded 204 in 0.2375 ms
+2026-05-14 22:42:46.988 +05:45 [INF] HTTP GET /api/blogs responded 200 in 232.5945 ms
+2026-05-14 22:43:22.470 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 0.2300 ms
+2026-05-14 22:43:22.494 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 8.9485 ms
+2026-05-14 22:43:39.437 +05:45 [INF] HTTP OPTIONS /api/blogs responded 204 in 0.2262 ms
+2026-05-14 22:43:39.546 +05:45 [INF] HTTP GET /api/blogs responded 200 in 93.5186 ms
+2026-05-14 22:43:40.019 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.2479 ms
+2026-05-14 22:43:40.058 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 26.3627 ms
+2026-05-14 22:43:40.231 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 0.2109 ms
+2026-05-14 22:43:40.249 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 1.6635 ms
+2026-05-14 22:43:46.366 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 0.3825 ms
+2026-05-14 22:43:46.378 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 1.4787 ms
+2026-05-14 22:43:53.906 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.1946 ms
+2026-05-14 22:43:53.945 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 26.9615 ms
+2026-05-14 22:43:54.785 +05:45 [INF] HTTP OPTIONS /api/blogs responded 204 in 0.1840 ms
+2026-05-14 22:43:54.816 +05:45 [INF] HTTP GET /api/blogs responded 200 in 17.3054 ms
+2026-05-14 23:18:19.540 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-14 23:18:22.400 +05:45 [INF] Database migrated and seeded successfully
+2026-05-14 23:18:22.404 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-05-14 23:18:22.724 +05:45 [INF] Now listening on: https://localhost:7178
+2026-05-14 23:18:22.725 +05:45 [INF] Now listening on: http://localhost:5214
+2026-05-14 23:18:22.797 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-14 23:18:22.799 +05:45 [INF] Hosting environment: Development
+2026-05-14 23:18:22.800 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-05-14 23:18:24.006 +05:45 [INF] HTTP GET /swagger responded 301 in 17.3828 ms
+2026-05-14 23:18:24.258 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 182.4783 ms
+2026-05-14 23:18:24.327 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 2.2540 ms
+2026-05-14 23:18:24.620 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 58.7155 ms
+2026-05-14 23:19:44.478 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 7.8267 ms
+2026-05-14 23:19:48.441 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 3951.3638 ms
+2026-05-14 23:19:48.615 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 1.5596 ms
+2026-05-14 23:19:48.847 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 213.7887 ms
+2026-05-14 23:19:55.291 +05:45 [INF] HTTP OPTIONS /api/dashboard/stats responded 204 in 0.1724 ms
+2026-05-14 23:19:55.319 +05:45 [INF] HTTP GET /api/dashboard/stats responded 200 in 18.8814 ms
+2026-05-14 23:19:59.209 +05:45 [INF] HTTP OPTIONS /api/contact/messages responded 204 in 0.2552 ms
+2026-05-14 23:19:59.447 +05:45 [INF] HTTP GET /api/contact/messages responded 200 in 214.4155 ms
+2026-05-14 23:20:01.160 +05:45 [INF] HTTP OPTIONS /api/blogs responded 204 in 0.3997 ms
+2026-05-14 23:20:01.512 +05:45 [INF] HTTP GET /api/blogs responded 200 in 331.7842 ms
+2026-05-14 23:20:04.358 +05:45 [INF] HTTP GET /api/blogs responded 200 in 15.5247 ms
+2026-05-14 23:20:21.963 +05:45 [INF] HTTP OPTIONS /api/auth/logout responded 204 in 0.1748 ms
+2026-05-14 23:20:22.178 +05:45 [INF] HTTP POST /api/auth/logout responded 200 in 203.6206 ms

@@ -1,0 +1,27 @@
+﻿  Determining projects to restore...
+D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.Application\AI.Solutions.Application.csproj : warning NU1903: Package 'AutoMapper' 13.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x [D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API\AI.Solutions.API.csproj]
+D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.Infrastructure\AI.Solutions.Infrastructure.csproj : warning NU1902: Package 'MailKit' 4.10.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-9j88-vvj5-vhgr [D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API\AI.Solutions.API.csproj]
+D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.Infrastructure\AI.Solutions.Infrastructure.csproj : warning NU1902: Package 'MimeKit' 4.10.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-g7hc-96xr-gvvx [D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API\AI.Solutions.API.csproj]
+  All projects are up-to-date for restore.
+D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.Infrastructure\AI.Solutions.Infrastructure.csproj : warning NU1902: Package 'MailKit' 4.10.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-9j88-vvj5-vhgr
+D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.Application\AI.Solutions.Application.csproj : warning NU1903: Package 'AutoMapper' 13.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x
+D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.Infrastructure\AI.Solutions.Infrastructure.csproj : warning NU1902: Package 'MimeKit' 4.10.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-g7hc-96xr-gvvx
+  AI.Solutions.Domain -> D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.Domain\bin\Debug\net9.0\AI.Solutions.Domain.dll
+  AI.Solutions.Shared -> D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.Shared\bin\Debug\net9.0\AI.Solutions.Shared.dll
+  AI.Solutions.Application -> D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.Application\bin\Debug\net9.0\AI.Solutions.Application.dll
+  AI.Solutions.Infrastructure -> D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.Infrastructure\bin\Debug\net9.0\AI.Solutions.Infrastructure.dll
+  AI.Solutions.Persistence -> D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.Persistence\bin\Debug\net9.0\AI.Solutions.Persistence.dll
+  AI.Solutions.API -> D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API\bin\Debug\net9.0\AI.Solutions.API.dll
+
+Build succeeded.
+
+D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.Application\AI.Solutions.Application.csproj : warning NU1903: Package 'AutoMapper' 13.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x [D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API\AI.Solutions.API.csproj]
+D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.Infrastructure\AI.Solutions.Infrastructure.csproj : warning NU1902: Package 'MailKit' 4.10.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-9j88-vvj5-vhgr [D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API\AI.Solutions.API.csproj]
+D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.Infrastructure\AI.Solutions.Infrastructure.csproj : warning NU1902: Package 'MimeKit' 4.10.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-g7hc-96xr-gvvx [D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API\AI.Solutions.API.csproj]
+D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.Infrastructure\AI.Solutions.Infrastructure.csproj : warning NU1902: Package 'MailKit' 4.10.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-9j88-vvj5-vhgr
+D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.Application\AI.Solutions.Application.csproj : warning NU1903: Package 'AutoMapper' 13.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x
+D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.Infrastructure\AI.Solutions.Infrastructure.csproj : warning NU1902: Package 'MimeKit' 4.10.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-g7hc-96xr-gvvx
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.76

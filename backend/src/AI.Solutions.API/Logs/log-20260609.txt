@@ -1,0 +1,12 @@
+2026-06-09 07:24:37.265 +05:45 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-09 07:24:39.381 +05:45 [INF] Database migrated and seeded successfully
+2026-06-09 07:24:39.392 +05:45 [INF] AI Solutions API starting on https://localhost:7178
+2026-06-09 07:24:39.691 +05:45 [INF] Now listening on: https://localhost:7178
+2026-06-09 07:24:39.698 +05:45 [INF] Now listening on: http://localhost:5214
+2026-06-09 07:24:39.787 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-09 07:24:39.796 +05:45 [INF] Hosting environment: Development
+2026-06-09 07:24:39.803 +05:45 [INF] Content root path: D:\Final year assignment 2\AISolutions\backend\src\AI.Solutions.API
+2026-06-09 07:24:41.767 +05:45 [INF] HTTP GET /swagger responded 301 in 10.1134 ms
+2026-06-09 07:24:41.964 +05:45 [INF] HTTP GET /swagger/index.html responded 200 in 117.9148 ms
+2026-06-09 07:24:42.051 +05:45 [INF] HTTP GET /swagger/index.js responded 200 in 1.6689 ms
+2026-06-09 07:24:42.498 +05:45 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 48.3373 ms
